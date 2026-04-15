@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-15T22:03:38.509121+00:00",
-  "system_modified_at": "2026-04-15T22:03:38.509123+00:00",
+  "last_updated": "2026-04-15T22:06:50.032083+00:00",
+  "system_modified_at": "2026-04-15T22:06:50.032085+00:00",
   "projects": [
     {
       "num": 1,
@@ -767,7 +767,7 @@
   "billing": {
     "current_balance_ils": 22.02,
     "currency": "ILS",
-    "last_synced": "2026-04-15T22:03:38.509103+00:00",
+    "last_synced": "2026-04-15T22:06:50.032071+00:00",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
