@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-15T21:53:24.341586+00:00",
-  "system_modified_at": "2026-04-15T21:53:24.341588+00:00",
+  "last_updated": "2026-04-15T22:03:38.509121+00:00",
+  "system_modified_at": "2026-04-15T22:03:38.509123+00:00",
   "projects": [
     {
       "num": 1,
@@ -364,307 +364,51 @@
   ],
   "system_improvements": [
     {
-      "timestamp": "2026-04-15T21:05:24Z",
+      "timestamp": "2026-04-15T22:00:59.517676+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: session ended with 16 modified system files — codemaps may be stale",
-      "why": "pending-doc-update",
-      "project": "pending-doc-update",
+      "what_changed": "עדכון פרויקט: GitHub Actions workflow_dispatch test: SUCCESS. Pipeline operational again.",
+      "why": "Chadshani",
+      "project": "Chadshani",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:19:28Z",
+      "timestamp": "2026-04-15T22:00:59.517625+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
+      "what_changed": "שינוי מערכת: Fixed: requirements.txt was missing from GitHub repo — caused all Actions runs to fail since module refactor. Now google",
+      "why": "chadshani_pipeline",
+      "project": "chadshani_pipeline",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:27:56Z",
+      "timestamp": "2026-04-15T21:57:30.209648+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
+      "what_changed": "שינוי מערכת: Updated skills_registry.md (14 new skills) + system_integrations_map.md (3 new integrations: autonomous-ops, LightRAG, O",
+      "why": "registries",
+      "project": "registries",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:28:08Z",
+      "timestamp": "2026-04-15T21:57:30.209634+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:28:28Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:29:06Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:30:17Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:30:23Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:30:25Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:30:27Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:31:03Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:31:09Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:31:16Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:31:23Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:31:36Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:31:48.281865+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Desktop=Planner only, Laptop=Executor. Ollama killed on desktop (100% CPU). All processing moves to laptop 192.168.1.202",
-      "why": "architecture",
-      "project": "architecture",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:31:48.282040+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Built: sync_to_laptop.py, setup_remote_machine.py, openrouter_client.py, autonomous_orchestrator.py, remediation_runner.",
-      "why": "tools_created",
-      "project": "tools_created",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:31:48.282107+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: New skills: remote-machine-setup (active), autonomous-ops (active)",
-      "why": "skills_created",
-      "project": "skills_created",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:31:48.282127+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Disabled on desktop: ClaudeOrchestratorNight, ClaudeOrchestratorEvening, PocketClaudeWatchdog. Will re-enable on laptop.",
+      "what_changed": "שינוי מערכת: Re-enabled 6 non-Ollama tasks: LinkProcessor, Backup, SanitizeSheets, MorningBriefing, LinksDocUpdate, WeeklyRetry.",
       "why": "task_scheduler",
       "project": "task_scheduler",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:32:01Z",
+      "timestamp": "2026-04-15T21:57:30.209613+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: session ended — handoff_state.json written for local model continuation",
-      "why": "token-continuity",
-      "project": "token-continuity",
+      "what_changed": "פריסה: Dashboard regenerated + deployed to LuachNihul-Live. Fixed remote URL (was pointing to Chadshani-Live).",
+      "why": "LuachNihul",
+      "project": "LuachNihul",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:32:01Z",
+      "timestamp": "2026-04-15T21:57:30.209570+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: session ended with 17 modified system files — codemaps may be stale",
-      "why": "pending-doc-update",
-      "project": "pending-doc-update",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:34:46Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:35:49Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:36:49Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:37:52Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:37:57Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:38:08Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:38:14Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:38:19Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:38:51Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:39:03Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:39:18Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:39:26Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:39:35Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:39:47Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:40:00.457787+00:00",
-      "category": "system",
-      "what_changed": "פריסה: 12 new ECC skills installed: python-patterns, python-testing, context-budget, cost-aware-llm-pipeline, dashboard-builder",
-      "why": "ECC_skills",
-      "project": "ECC_skills",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:40:00.457837+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: generate_json_local.py built — Ollama/OpenRouter replacement for Gemini, zero cost",
-      "why": "chadshani_local",
-      "project": "chadshani_local",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T21:40:00.457865+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Audit complete: 4 items marked done (orchestrator, architecture, ECC, LightRAG), 11 remaining",
-      "why": "past_requests_audit",
-      "project": "past_requests_audit",
+      "what_changed": "פריסה: Mind map updated: 63 skills, automation section, Ragi V2. Deployed to Evolution-Live. Fixed vite base path.",
+      "why": "Evolution",
+      "project": "Evolution",
       "source_type": "events_jsonl"
     },
     {
@@ -676,98 +420,354 @@
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:40:16Z",
+      "timestamp": "2026-04-15T21:40:00.457865+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: session ended — handoff_state.json written for local model continuation",
-      "why": "token-continuity",
-      "project": "token-continuity",
+      "what_changed": "שינוי מערכת: Audit complete: 4 items marked done (orchestrator, architecture, ECC, LightRAG), 11 remaining",
+      "why": "past_requests_audit",
+      "project": "past_requests_audit",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:40:16Z",
+      "timestamp": "2026-04-15T21:40:00.457837+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: session ended with 22 modified system files — codemaps may be stale",
-      "why": "pending-doc-update",
-      "project": "pending-doc-update",
+      "what_changed": "שינוי מערכת: generate_json_local.py built — Ollama/OpenRouter replacement for Gemini, zero cost",
+      "why": "chadshani_local",
+      "project": "chadshani_local",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:43:11Z",
+      "timestamp": "2026-04-15T21:40:00.457787+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
+      "what_changed": "פריסה: 12 new ECC skills installed: python-patterns, python-testing, context-budget, cost-aware-llm-pipeline, dashboard-builder",
+      "why": "ECC_skills",
+      "project": "ECC_skills",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:43:32Z",
+      "timestamp": "2026-04-15T21:31:48.282127+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
+      "what_changed": "שינוי מערכת: Disabled on desktop: ClaudeOrchestratorNight, ClaudeOrchestratorEvening, PocketClaudeWatchdog. Will re-enable on laptop.",
+      "why": "task_scheduler",
+      "project": "task_scheduler",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:43:48Z",
+      "timestamp": "2026-04-15T21:31:48.282107+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
+      "what_changed": "שינוי מערכת: New skills: remote-machine-setup (active), autonomous-ops (active)",
+      "why": "skills_created",
+      "project": "skills_created",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:43:56Z",
+      "timestamp": "2026-04-15T21:31:48.282040+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
+      "what_changed": "שינוי מערכת: Built: sync_to_laptop.py, setup_remote_machine.py, openrouter_client.py, autonomous_orchestrator.py, remediation_runner.",
+      "why": "tools_created",
+      "project": "tools_created",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:46:48Z",
+      "timestamp": "2026-04-15T21:31:48.281865+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: session ended — handoff_state.json written for local model continuation",
-      "why": "token-continuity",
-      "project": "token-continuity",
+      "what_changed": "שינוי מערכת: Desktop=Planner only, Laptop=Executor. Ollama killed on desktop (100% CPU). All processing moves to laptop 192.168.1.202",
+      "why": "architecture",
+      "project": "architecture",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:46:48Z",
+      "timestamp": "2026-04-15T21:04:08.402443+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: session ended with 22 modified system files — codemaps may be stale",
-      "why": "pending-doc-update",
-      "project": "pending-doc-update",
+      "what_changed": "repo_scanned: Scanned: 4P 7S 7T 0A",
+      "why": "anthropic-claude-code-ref",
+      "project": "anthropic-claude-code-ref",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:48:11Z",
+      "timestamp": "2026-04-15T21:03:05.459654+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
+      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "why": "squad",
+      "project": "squad",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:48:19Z",
+      "timestamp": "2026-04-15T20:59:39.380885+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
+      "what_changed": "repo_scanned: Scanned: 6P 5S 12T 7A",
+      "why": "mcp-servers-official",
+      "project": "mcp-servers-official",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-15T21:51:14Z",
+      "timestamp": "2026-04-15T20:55:47.125423+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: file modified",
-      "why": "unknown",
-      "project": "unknown",
+      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "why": "Awesome-Design-Tools",
+      "project": "Awesome-Design-Tools",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:52:11.568869+00:00",
+      "category": "system",
+      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "why": "claude-quickstarts",
+      "project": "claude-quickstarts",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:50:54.754895+00:00",
+      "category": "system",
+      "what_changed": "repo_scanned: Scanned: 5P 7S 3T 3A",
+      "why": "claude-code-repo",
+      "project": "claude-code-repo",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:47:50.434214+00:00",
+      "category": "system",
+      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "why": "API-mega-list",
+      "project": "API-mega-list",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:39:54.389494+00:00",
+      "category": "system",
+      "what_changed": "repo_scanned: Scanned: 4P 5S 3T 0A",
+      "why": "claude-code-on-steroids",
+      "project": "claude-code-on-steroids",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:36:26.961578+00:00",
+      "category": "system",
+      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "why": "everything-claude-code",
+      "project": "everything-claude-code",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:28:32.660584+00:00",
+      "category": "system",
+      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "why": "awesome-mcp-servers",
+      "project": "awesome-mcp-servers",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:24:07.002016+00:00",
+      "category": "system",
+      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "why": "claude-code-on-steroids",
+      "project": "claude-code-on-steroids",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:20:06.636349+00:00",
+      "category": "system",
+      "what_changed": "repo_scanned: Scanned: 6P 3S 4T 1A",
+      "why": "everything-claude-code",
+      "project": "everything-claude-code",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:19:26.309039+00:00",
+      "category": "system",
+      "what_changed": "task_completed: Remediation task 8 completed: OK: added --batch-size and --batch-sleep flags to rag_ingest.py",
+      "why": "RAG Lightweight Mode",
+      "project": "RAG Lightweight Mode",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:19:26.162646+00:00",
+      "category": "system",
+      "what_changed": "task_completed: Remediation task 4 completed: OK: sanitize ran successfully. Output: 2026-04-15 23:19:07,921 | INFO | Starting Sheets sa",
+      "why": "Sheets History Dedup",
+      "project": "Sheets History Dedup",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T20:18:55.396851+00:00",
+      "category": "system",
+      "what_changed": "repo_scanned: Scanned: 13P 7S 6T 1A",
+      "why": "everything-claude-code",
+      "project": "everything-claude-code",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T19:55:13.625451+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: 10 ECC core skills installed: tdd-workflow, verification-loop, strategic-compact, eval-harness, continuous-learning, con",
+      "why": "ECC_installation",
+      "project": "ECC_installation",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T19:47:35.251626+00:00",
+      "category": "system",
+      "what_changed": "פריסה: V2 (Ragi) deployed — Ollama-powered, RAG-integrated, inbox relay",
+      "why": "PocketClaude",
+      "project": "PocketClaude",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T19:47:35.251624+00:00",
+      "category": "system",
+      "what_changed": "פריסה: Watchlist removed, bold fixed, Chadshani-Live repo created, deploy workflow fixed",
+      "why": "Chadshani",
+      "project": "Chadshani",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T19:47:35.251622+00:00",
+      "category": "system",
+      "what_changed": "עדכון פרויקט: events.jsonl integration, scan 80→500, auto billing from cost_log",
+      "why": "LuachNihul",
+      "project": "LuachNihul",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T19:47:35.251619+00:00",
+      "category": "system",
+      "what_changed": "פריסה: Mobile nav fix deployed — buttons wrap on small screens",
+      "why": "Evolution",
+      "project": "Evolution",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T19:47:35.251601+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: 30 tasks disabled, LightRAG+Ollama installed, bot_v2 running, 4 sites fixed, 12 repos cloned, ECC installed",
+      "why": "RAGGY_session",
+      "project": "RAGGY_session",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-14T03:01:20Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: auto-skill-builder created skill for pattern 'automation' (15x threshold exceeded)",
+      "why": "skill:automation",
+      "project": "skill:automation",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-14T03:00:04Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: daily synthesis complete — 0 topics from yesterday, 15 all-time topic types tracked, 0 experimental skills flagged for p",
+      "why": "daily-learner",
+      "project": "daily-learner",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-13T22:47:26Z",
+      "category": "system",
+      "what_changed": "ריצה לילית הושלמה: nightly run complete: 2 שופרו אוטומטית | 2 קבצים נוקו",
+      "why": "nightly-optimizer",
+      "project": "nightly-optimizer",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-13T22:47:13Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: auto-deleted: orphaned pending file >1h old",
+      "why": "pending-cleanup-2026-04-13-01.md",
+      "project": "pending-cleanup-2026-04-13-01.md",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-13T18:20:41Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: CHADSHANI: MANDATORY MAINTENANCE MODE ACTIVATION",
+      "why": ".github/workflows/chadshani-deploy-bypass.yml,FORCE_EVERYTHING.bat,RESCUE_MAINTENANCE.bat,Shalev's_Projects/6_LinkToText,tools/bgutil-ytdlp-pot-provider",
+      "project": ".github/workflows/chadshani-deploy-bypass.yml,FORCE_EVERYTHING.bat,RESCUE_MAINTENANCE.bat,Shalev's_Projects/6_LinkToText,tools/bgutil-ytdlp-pot-provider",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-13T17:35:46Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: CHADSHANI: Emergency maintenance activation (Rescue Push)",
+      "why": "Shalev's_Projects/6_LinkToText,cleanup_log.txt,tools/bgutil-ytdlp-pot-provider",
+      "project": "Shalev's_Projects/6_LinkToText,cleanup_log.txt,tools/bgutil-ytdlp-pot-provider",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-13T16:10:28Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: CHADSHANI: Emergency maintenance activation (Rescue Push)",
+      "why": "RESCUE_MAINTENANCE.bat,Shalev's_Projects/6_LinkToText,tools/bgutil-ytdlp-pot-provider",
+      "project": "RESCUE_MAINTENANCE.bat,Shalev's_Projects/6_LinkToText,tools/bgutil-ytdlp-pot-provider",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-13T16:04:46Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: CHADSHANI: Maintenance mode activated and cost-prevention kill-switch enabled",
+      "why": "PROJECT_STATUS.md,PUSH_MAINTENANCE.bat,Shalev's_Projects/10_TmunoteAI/PROJECT_CARD.md,Shalev's_Projects/11_PocketClaude/PROJECT_CARD.md,Shalev's_Projects/12_LuachNihul/PROJECT_CARD.md,Shalev's_Projects/12_LuachNihul/data/timeline.json,Shalev's_Projects/12_LuachNihul/generate_data.py,Shalev's_Projects/1_EmotionWheel/PROJECT_CARD.md,Shalev's_Projects/2_Chadshani/PREFERENCES.md,Shalev's_Projects/2_Chadshani/PROJECT_CARD.md,Shalev's_Projects/2_Chadshani/chadshani_auto.py,Shalev's_Projects/2_Chadshani/index.html,Shalev's_Projects/2_Chadshani/index_template.html,Shalev's_Projects/6_LinkToText,Shalev's_Projects/7_LCL/PROJECT_CARD.md,Shalev's_Projects/9_Kesem/PROJECT_CARD.md,cleanup_log.txt,handoff_state.json,inbox/.ollama_last_run,inbox/items.jsonl,inbox/last_processed.json,inbox/processed_images.txt,tools/append_solutions_2026_04_12.py,tools/bgutil-ytdlp-pot-provider,tools/bug_learner_custom_prev.py,tools/bug_learner_today.py,tools/check_no_prev_final.py,tools/close_remaining_prev.py,tools/final_sweep_apr12.py,tools/system_sync_last_check.json",
+      "project": "PROJECT_STATUS.md,PUSH_MAINTENANCE.bat,Shalev's_Projects/10_TmunoteAI/PROJECT_CARD.md,Shalev's_Projects/11_PocketClaude/PROJECT_CARD.md,Shalev's_Projects/12_LuachNihul/PROJECT_CARD.md,Shalev's_Projects/12_LuachNihul/data/timeline.json,Shalev's_Projects/12_LuachNihul/generate_data.py,Shalev's_Projects/1_EmotionWheel/PROJECT_CARD.md,Shalev's_Projects/2_Chadshani/PREFERENCES.md,Shalev's_Projects/2_Chadshani/PROJECT_CARD.md,Shalev's_Projects/2_Chadshani/chadshani_auto.py,Shalev's_Projects/2_Chadshani/index.html,Shalev's_Projects/2_Chadshani/index_template.html,Shalev's_Projects/6_LinkToText,Shalev's_Projects/7_LCL/PROJECT_CARD.md,Shalev's_Projects/9_Kesem/PROJECT_CARD.md,cleanup_log.txt,handoff_state.json,inbox/.ollama_last_run,inbox/items.jsonl,inbox/last_processed.json,inbox/processed_images.txt,tools/append_solutions_2026_04_12.py,tools/bgutil-ytdlp-pot-provider,tools/bug_learner_custom_prev.py,tools/bug_learner_today.py,tools/check_no_prev_final.py,tools/close_remaining_prev.py,tools/final_sweep_apr12.py,tools/system_sync_last_check.json",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-13T03:00:02Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: daily synthesis complete — 8 topics from yesterday, 15 all-time topic types tracked, 0 experimental skills flagged for p",
+      "why": "daily-learner",
+      "project": "daily-learner",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-12T23:46:50.150644+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: nightly check: 0 auto-fixes, 0 warnings",
+      "why": "nightly-health-check",
+      "project": "nightly-health-check",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-12T22:59:13.718474Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: stale docs scan: 2 candidates in project 8 (EvolutionSchematic). All 5 checks passed. Other 4 projects skipped (uncommit",
+      "why": "stale-docs-cleaner",
+      "project": "stale-docs-cleaner",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-12T22:47:05Z",
+      "category": "system",
+      "what_changed": "ריצה לילית הושלמה: nightly run complete: 121 שופרו אוטומטית | 121 קבצים נוקו",
+      "why": "nightly-optimizer",
+      "project": "nightly-optimizer",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-12T22:46:57Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: auto-deleted: orphaned pending file >1h old",
+      "why": "pending-doc-update-.md",
+      "project": "pending-doc-update-.md",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-12T22:46:57Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: auto-deleted: orphaned pending file >1h old",
+      "why": "pending-doc-update-2026-04-12-0146.md",
+      "project": "pending-doc-update-2026-04-12-0146.md",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-12T22:46:57Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: auto-deleted: orphaned pending file >1h old",
+      "why": "pending-doc-update-2026-04-12-0626.md",
+      "project": "pending-doc-update-2026-04-12-0626.md",
       "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 22.02,
     "currency": "ILS",
-    "last_synced": "2026-04-15T21:53:24.341574+00:00",
+    "last_synced": "2026-04-15T22:03:38.509103+00:00",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
