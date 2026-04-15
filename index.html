@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>לוח ניהול — Shalev Gigi</title>
+    <link rel="icon" href="assets/luachnihul_logo.png" type="image/png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="לוח ניהול — Claude Code">
+    <meta property="og:description" content="מרכז בקרה חי — פרויקטים, שינויים ותובנות ממערכת Claude Code">
+    <meta property="og:image" content="https://shalevgigi-vks.github.io/LuachNihul-Live/assets/luachnihul_logo.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:url" content="https://shalevgigi-vks.github.io/LuachNihul-Live/">
+    <meta property="og:locale" content="he_IL">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="לוח ניהול — Claude Code">
+    <meta name="twitter:image" content="https://shalevgigi-vks.github.io/LuachNihul-Live/assets/luachnihul_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f0f2f8;
+            --surface: #ffffff;
+            --surface-2: #f7f8fc;
+            --border: #e2e6f0;
+            --accent: #4f46e5;
+            --accent-light: rgba(79,70,229,0.08);
+            --green: #16a34a;
+            --green-light: rgba(22,163,74,0.08);
+            --orange: #ea580c;
+            --orange-light: rgba(234,88,12,0.08);
+            --red: #dc2626;
+            --red-light: rgba(220,38,38,0.08);
+            --gray: #6b7280;
+            --gray-light: rgba(107,114,128,0.08);
+            --text: #111827;
+            --text-2: #374151;
+            --text-muted: #6b7280;
+            --radius: 14px;
+            --radius-sm: 8px;
+            --shadow: 0 1px 4px rgba(0,0,0,0.07), 0 4px 16px rgba(0,0,0,0.05);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { overflow-x: hidden; }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* ── Top bar ── */
+        .topbar {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 14px 24px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .topbar-logo {
+            width: 36px;
+            height: 36px;
+            border-radius: 9px;
+            object-fit: cover;
+        }
+
+        .topbar-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--text);
+        }
+
+        .topbar-updated {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-right: auto;
+        }
+
+        .topbar-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--green);
+            border-radius: 50%;
+            animation: pulse 2.5s infinite;
+        }
+
+        @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+        /* ── Navigation ── */
+        .nav {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 0 16px;
+            display: flex;
+            gap: 0;
+            overflow-x: auto;
+            position: sticky;
+            top: 65px;
+            z-index: 99;
+            justify-content: center;
+        }
+
+        .nav::-webkit-scrollbar { display: none; }
+
+        .nav-btn {
+            padding: 14px 20px;
+            border: none;
+            background: transparent;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+            white-space: nowrap;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .nav-btn:hover { color: var(--text); }
+
+        .nav-btn.active {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        /* ── Layout ── */
+        .main {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 28px 20px 80px;
+        }
+
+        /* ── Section header ── */
+        .section-header {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+
+        .section-sub {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* ── Card ── */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            margin-bottom: 16px;
+        }
+
+        /* ── Timeline ── */
+        .day-group {
+            margin-bottom: 24px;
+        }
+
+        .day-label {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 8px 0 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .day-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .tl-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px 18px;
+            margin-bottom: 10px;
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+            box-shadow: var(--shadow);
+            transition: border-color 0.2s;
+        }
+
+        .tl-item:hover { border-color: var(--accent); }
+
+        .tl-type-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-top: 5px;
+            flex-shrink: 0;
+        }
+
+        .dot-commit { background: var(--accent); }
+        .dot-event  { background: var(--green); }
+        .dot-insight { background: var(--orange); }
+
+        .tl-body { flex: 1; min-width: 0; }
+
+        .tl-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 3px;
+        }
+
+        .tl-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text);
+            line-height: 1.4;
+            word-break: break-word;
+        }
+
+        .tl-time {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+            font-weight: 500;
+        }
+
+        .tl-desc {
+            font-size: 0.83rem;
+            color: var(--text-muted);
+            word-break: break-word;
+        }
+
+        .tl-tags {
+            display: flex;
+            gap: 6px;
+            margin-top: 8px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 20px;
+            background: var(--accent-light);
+            color: var(--accent);
+        }
+
+        .badge-green { background: var(--green-light); color: var(--green); }
+        .badge-orange { background: var(--orange-light); color: var(--orange); }
+        .badge-gray { background: var(--gray-light); color: var(--gray); }
+        .badge-red { background: var(--red-light); color: var(--red); }
+
+        /* ── Projects ── */
+        .project-row {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px 22px;
+            margin-bottom: 12px;
+            box-shadow: var(--shadow);
+            transition: border-color 0.2s;
+        }
+
+        .project-row:hover { border-color: var(--accent); }
+
+        .project-row.frozen {
+            opacity: 0.65;
+            border-style: dashed;
+        }
+
+        .proj-top {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .proj-num {
+            background: var(--accent-light);
+            color: var(--accent);
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 3px 7px;
+            border-radius: 6px;
+            min-width: 26px;
+            text-align: center;
+        }
+
+        .proj-num.frozen-num {
+            background: var(--gray-light);
+            color: var(--gray);
+        }
+
+        .proj-emoji { font-size: 1.3rem; line-height: 1; }
+
+        .proj-name {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--text);
+            flex: 1;
+        }
+
+        .proj-status-badge {
+            font-size: 0.68rem;
+            font-weight: 700;
+            padding: 3px 9px;
+            border-radius: 20px;
+            white-space: nowrap;
+        }
+
+        .status-active { background: var(--green-light); color: var(--green); }
+        .status-frozen { background: var(--gray-light); color: var(--gray); }
+        .status-dev    { background: var(--orange-light); color: var(--orange); }
+
+        .proj-purpose {
+            font-size: 0.9rem;
+            color: var(--text-2);
+            margin-bottom: 6px;
+            line-height: 1.55;
+        }
+
+        .proj-state {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        .proj-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .proj-link:hover { text-decoration: underline; }
+
+        /* ── Improvements ── */
+        .imp-item {
+            padding: 18px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            gap: 14px;
+        }
+
+        .imp-item:last-child { border-bottom: none; }
+
+        .imp-icon {
+            font-size: 1.4rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .imp-body { flex: 1; min-width: 0; }
+
+        .imp-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 4px;
+            word-break: break-word;
+        }
+
+        .imp-detail {
+            font-size: 0.83rem;
+            color: var(--text-2);
+            margin-bottom: 4px;
+            word-break: break-word;
+        }
+
+        .imp-why {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            word-break: break-word;
+            font-style: italic;
+        }
+
+        /* ── Open tasks ── */
+        .task-item {
+            padding: 18px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            gap: 14px;
+        }
+
+        .task-item:last-child { border-bottom: none; }
+
+        .task-num {
+            font-size: 0.95rem;
+            font-weight: 800;
+            color: var(--text-muted);
+            min-width: 28px;
+            padding-top: 1px;
+        }
+
+        .task-body { flex: 1; min-width: 0; }
+
+        .task-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+
+        .task-title {
+            font-size: 0.97rem;
+            font-weight: 700;
+            color: var(--text);
+            word-break: break-word;
+        }
+
+        .task-prio {
+            font-size: 0.68rem;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 20px;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        .prio-critical { background: var(--red-light); color: var(--red); }
+        .prio-high   { background: rgba(234,88,12,0.1); color: #c2410c; }
+        .prio-medium { background: rgba(202,138,4,0.1); color: #a16207; }
+        .prio-low    { background: var(--gray-light); color: var(--gray); }
+
+        .task-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            word-break: break-word;
+        }
+
+        /* ── Empty state ── */
+        .empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+
+        .empty-icon { font-size: 2.5rem; margin-bottom: 12px; display: block; }
+
+        /* ── Responsive ── */
+        @media (max-width: 600px) {
+            .topbar { padding: 12px 16px; }
+            .nav { padding: 0 10px; }
+            .nav-btn { padding: 12px 12px; font-size: 0.82rem; }
+            .main { padding: 18px 14px 60px; }
+            .tl-top { flex-direction: column; gap: 3px; }
+            .tl-time { align-self: flex-start; }
+            .proj-top { flex-wrap: wrap; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="topbar">
+        <img src="assets/luachnihul_logo.png" alt="" class="topbar-logo" onerror="this.style.display='none'">
+        <span class="topbar-title">לוח ניהול</span>
+        <span class="topbar-updated" id="lastUpdated">טוען...</span>
+        <div class="topbar-dot"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <button class="nav-btn active" onclick="setView('improvements', this)">🔧 שודרג</button>
+        <button class="nav-btn" onclick="setView('pending', this)">⏳ ממתין</button>
+        <button class="nav-btn" onclick="setView('open_tasks', this)">📋 פתוח</button>
+        <button class="nav-btn" onclick="window.open('https://shalevgigi-vks.github.io/Evolution-Live/','_blank')" style="color:var(--accent)">🧠 אבולוציה ↗</button>
+        <button class="nav-btn" onclick="setView('projects', this)">📁 פרויקטים</button>
+    </nav>
+
+    <main class="main">
+        <div id="billingSummary"></div>
+        <div id="viewContent"></div>
+    </main>
+
+    <script>
+        window.scrollTo(0, 0);
+        let _data = null;
+        let _view = 'improvements';
+
+        // ── Helpers ──────────────────────────────────────────────────────────────
+        function fmtTime(iso) {
+            if (!iso) return '';
+            try {
+                return new Date(iso).toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit' });
+            } catch(e) { return ''; }
+        }
+
+        function fmtDate(iso) {
+            if (!iso) return '';
+            try {
+                return new Date(iso).toLocaleDateString('he-IL', { day: '2-digit', month: '2-digit', year: 'numeric' });
+            } catch(e) { return iso.slice(0,10); }
+        }
+
+        function fmtDateShort(iso) {
+            if (!iso) return '';
+            try {
+                const d = new Date(iso);
+                const now = new Date();
+                const diff = Math.floor((now - d) / 86400000);
+                if (diff === 0) return 'היום';
+                if (diff === 1) return 'אתמול';
+                if (diff < 7) return `לפני ${diff} ימים`;
+                return d.toLocaleDateString('he-IL', { day: '2-digit', month: '2-digit' });
+            } catch(e) { return ''; }
+        }
+
+        function dayKey(iso) {
+            if (!iso) return 'unknown';
+            try {
+                const d = new Date(iso);
+                const now = new Date();
+                const diff = Math.floor((now - d) / 86400000);
+                if (diff === 0) return 'היום';
+                if (diff === 1) return 'אתמול';
+                if (diff < 7) return `לפני ${diff} ימים`;
+                return d.toLocaleDateString('he-IL', { day: '2-digit', month: '2-digit', year: 'numeric' });
+            } catch(e) { return iso.slice(0,10); }
+        }
+
+        function esc(s) {
+            if (!s) return '';
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+
+        function renderBilling(billing) {
+            if (!billing) return '';
+            const ils = billing.current_balance_ils || 0;
+            return `
+                <div class="card" style="margin-bottom:24px; background: linear-gradient(135deg, var(--surface) 0%, var(--surface-2) 100%);">
+                    <div style="padding:20px; display:flex; align-items:center; justify-content:space-between;">
+                        <div>
+                            <div style="font-size:0.75rem; color:var(--text-muted); font-weight:700; margin-bottom:4px; text-transform:uppercase; letter-spacing:0.5px;">יתרת חיוב נוכחית (AI Studio)</div>
+                            <div style="font-size:1.8rem; font-weight:800; color:var(--text); font-family:'Outfit', sans-serif;">₪${ils.toFixed(2)}</div>
+                        </div>
+                        <div style="text-align:left;">
+                            <div class="badge badge-green" style="margin-bottom:6px;">מסונכרן</div>
+                            <div style="font-size:0.7rem; color:var(--text-muted);">סונכרן לאחרונה: ${fmtTime(billing.last_synced)}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        function renderTimeline() {
+            const items = (_data.timeline || []);
+            if (!items.length) return `<div class="empty"><span class="empty-icon">📭</span><p>אין פעילות מתועדת</p></div>`;
+
+            // Group by day
+            const groups = {};
+            const order = [];
+            for (const item of items) {
+                const key = dayKey(item.timestamp);
+                if (!groups[key]) { groups[key] = []; order.push(key); }
+                groups[key].push(item);
+            }
+
+            const TYPE_DOT = {
+                commit: 'dot-commit', event: 'dot-event', insight: 'dot-insight',
+                system_changed: 'dot-event', project_changed: 'dot-event',
+                tool_added: 'dot-insight', agent_added: 'dot-insight', skill_added: 'dot-insight',
+                bug_fix: 'dot-commit'
+            };
+            const TYPE_BADGE = {
+                commit: '<span class="badge badge-gray">קומיט</span>',
+                event: '<span class="badge badge-green">אירוע</span>',
+                insight: '<span class="badge badge-orange">תובנה</span>',
+                system_changed: '<span class="badge badge-green">שינוי מערכת</span>',
+                project_changed: '<span class="badge badge-green">שינוי פרויקט</span>',
+                tool_added: '<span class="badge badge-orange">כלי חדש</span>',
+                agent_added: '<span class="badge badge-orange">סוכן חדש</span>',
+                skill_added: '<span class="badge badge-orange">מיומנות חדשה</span>',
+                bug_fix: '<span class="badge badge-gray">תיקון באג</span>',
+            };
+
+            let html = '';
+            for (const day of order) {
+                const dayItems = groups[day];
+                html += `<div class="day-group"><div class="day-label">${esc(day)} <span style="font-size:0.7rem;font-weight:400">(${dayItems.length})</span></div>`;
+                for (const item of dayItems) {
+                    const dotClass = TYPE_DOT[item.type] || 'dot-commit';
+                    const badge = TYPE_BADGE[item.type] || '';
+                    const urlTag = item.url
+                        ? `<a href="${esc(item.url)}" target="_blank" class="badge" style="text-decoration:none">🔗 מקור</a>`
+                        : '';
+                    html += `
+                        <div class="tl-item">
+                            <div class="tl-type-dot ${dotClass}" title="${esc(item.type)}"></div>
+                            <div class="tl-body">
+                                <div class="tl-top">
+                                    <div class="tl-title">${esc(item.title)}</div>
+                                    <div class="tl-time">${fmtTime(item.timestamp)}</div>
+                                </div>
+                                ${item.description ? `<div class="tl-desc">${esc(item.description)}</div>` : ''}
+                                <div class="tl-tags">
+                                    ${item.project ? `<span class="badge">${esc(item.project)}</span>` : ''}
+                                    ${badge}
+                                    ${urlTag}
+                                </div>
+                            </div>
+                        </div>`;
+                }
+                html += `</div>`;
+            }
+            return `
+                <div class="section-header">
+                    <div class="section-title">ציר זמן</div>
+                    <div class="section-sub">${items.length} אירועים — commits, עדכוני מערכת ותובנות</div>
+                </div>` + html;
+        }
+
+        function renderProjects() {
+            const projs = (_data.projects || []);
+            if (!projs.length) return `<div class="empty"><span class="empty-icon">📁</span><p>אין פרויקטים</p></div>`;
+
+            const active = projs.filter(p => !p.status.includes('מוקפא') && !p.status.includes('מושהה'));
+            const frozen = projs.filter(p => p.status.includes('מוקפא') || p.status.includes('מושהה'));
+
+            function projectCard(p) {
+                const isFrozen = p.status.includes('מוקפא') || p.status.includes('מושהה');
+                const statusClass = isFrozen ? 'status-frozen' : (p.status.includes('פיתוח') ? 'status-dev' : 'status-active');
+                const numClass = isFrozen ? 'proj-num frozen-num' : 'proj-num';
+                return `
+                    <div class="project-row ${isFrozen ? 'frozen' : ''}">
+                        <div class="proj-top">
+                            <span class="${numClass}">${p.num}</span>
+                            <span class="proj-emoji">${p.emoji || '📁'}</span>
+                            <span class="proj-name">${esc(p.name)}</span>
+                            <span class="proj-status-badge ${statusClass}">${esc(p.status)}</span>
+                        </div>
+                        ${p.purpose ? `<div class="proj-purpose">${esc(p.purpose)}</div>` : ''}
+                        ${p.state ? `<div class="proj-state">${esc(p.state)}</div>` : ''}
+                        ${p.url ? `<a href="${esc(p.url)}" target="_blank" class="proj-link">🔗 פתח פרויקט</a>` : ''}
+                    </div>`;
+            }
+
+            let html = `
+                <div class="section-header">
+                    <div class="section-title">פרויקטים</div>
+                    <div class="section-sub">${active.length} פעילים · ${frozen.length} מוקפאים</div>
+                </div>`;
+
+            for (const p of active) html += projectCard(p);
+
+            if (frozen.length) {
+                html += `<div class="day-label" style="margin-top:16px">מוקפאים</div>`;
+                for (const p of frozen) html += projectCard(p);
+            }
+
+            return html;
+        }
+
+        function renderImprovements() {
+            const items = (_data.system_improvements || []);
+            if (!items.length) return `
+                <div class="section-header">
+                    <div class="section-title">🔧 שודרג</div>
+                    <div class="section-sub">מה הותקן ושודרג מתוכן פוקטי</div>
+                </div>
+                <div class="empty"><span class="empty-icon">🔧</span><p>אין שדרוגים מתועדים עדיין</p></div>`;
+
+            const CAT_ICONS = { bug_fix:'🐛', upgrade_queue:'📋', rule_added:'📌', infrastructure:'🏗️', feature:'✨' };
+            const SOURCE_LABELS = { inbox_images:'תמונה מפוקטי', inbox_links:'קישור מפוקטי', session_work:'עבודת session' };
+
+            let rows = items.map(imp => {
+                // Split "Short title — full detail" or use first 55 chars as title
+                const raw = imp.what_changed || '';
+                const sepIdx = raw.indexOf(' — ');
+                const shortTitle = sepIdx > 0 ? raw.slice(0, sepIdx) : raw.slice(0, 55).trim();
+                const detail = sepIdx > 0 ? raw.slice(sepIdx + 3) : (raw.length > 55 ? raw.slice(55) : '');
+                return `
+                <div class="imp-item">
+                    <div class="imp-icon">${CAT_ICONS[imp.category] || '🔧'}</div>
+                    <div class="imp-body">
+                        <div class="imp-title">${esc(shortTitle)}</div>
+                        ${detail ? `<div class="imp-detail">${esc(detail)}</div>` : ''}
+                        <div class="imp-why">${esc(imp.why)}</div>
+                        <div class="tl-tags">
+                            <span class="badge badge-gray">${fmtDate(imp.timestamp)}</span>
+                            ${imp.project ? `<span class="badge">${esc(imp.project)}</span>` : ''}
+                            ${imp.source_type ? `<span class="badge badge-orange">${esc(SOURCE_LABELS[imp.source_type] || imp.source_type)}</span>` : ''}
+                        </div>
+                    </div>
+                </div>`;
+            }).join('');
+
+            return `
+                <div class="section-header">
+                    <div class="section-title">🔧 שודרג</div>
+                    <div class="section-sub">${items.length} שדרוגים מתועדים</div>
+                </div>
+                <div class="card">${rows}</div>`;
+        }
+
+        function renderOpenTasks() {
+            const tasks = (_data.open_tasks || []);
+            if (!tasks.length) return `
+                <div class="section-header">
+                    <div class="section-title">📋 משימות פתוחות</div>
+                    <div class="section-sub">פערים שדורשים טיפול</div>
+                </div>
+                <div class="empty"><span class="empty-icon">✅</span><p>אין משימות פתוחות — המערכת שלמה</p></div>`;
+
+            const PRIO_CLASS = { critical:'prio-critical', high:'prio-high', medium:'prio-medium', low:'prio-low' };
+            const PRIO_HE = { critical:'קריטי', high:'גבוה', medium:'בינוני', low:'נמוך' };
+
+            const byPrio = { critical:[], high:[], medium:[], low:[] };
+            for (const t of tasks) {
+                const p = t.priority || 'low';
+                (byPrio[p] || byPrio.low).push(t);
+            }
+            const ordered = [...byPrio.critical, ...byPrio.high, ...byPrio.medium, ...byPrio.low];
+
+            let rows = ordered.map((t, i) => `
+                <div class="task-item">
+                    <div class="task-num">${i + 1}</div>
+                    <div class="task-body">
+                        <div class="task-top">
+                            <div class="task-title">${esc(t.title)}</div>
+                            <span class="task-prio ${PRIO_CLASS[t.priority] || 'prio-low'}">${PRIO_HE[t.priority] || t.priority}</span>
+                        </div>
+                        <div class="task-desc">${esc(t.description || '')}</div>
+                        <div class="tl-tags">
+                            ${t.project ? `<span class="badge">${esc(t.project)}</span>` : ''}
+                            ${t.category ? `<span class="badge badge-gray">${esc(t.category)}</span>` : ''}
+                            ${t.requires_manual ? `<span class="badge badge-red">דורש טיפול ידני</span>` : ''}
+                            ${t.auto_fix ? `<span class="badge badge-green">יטופל אוטומטית</span>` : ''}
+                        </div>
+                    </div>
+                </div>`).join('');
+
+            const highCount = byPrio.critical.length + byPrio.high.length;
+            return `
+                <div class="section-header">
+                    <div class="section-title">📋 משימות פתוחות</div>
+                    <div class="section-sub">${tasks.length} משימות · ${highCount} בעדיפות גבוהה</div>
+                </div>
+                <div class="card">${rows}</div>`;
+        }
+
+        // ── Pending installs view ─────────────────────────────────────────────────
+        function renderPending() {
+            const items = (_data.pending_installs || []);
+            const lastRun = _data.last_run_results || {};
+            const relevant = lastRun.relevant_count ?? '—';
+            const skipped  = lastRun.skipped_count  ?? '—';
+            const heavy    = lastRun.heavy_count     ?? '—';
+            const total    = lastRun.links_processed ?? '—';
+
+            const TYPE_ICONS = { image: '🖼️', link: '🔗', video: '🎬' };
+            const PRIO_LABEL = { high: 'גבוהה', medium: 'בינונית', low: 'נמוכה' };
+
+            const statBlock = `
+                <div class="card" style="margin-bottom:20px;">
+                    <div style="padding:18px 20px; display:flex; gap:28px; flex-wrap:wrap; align-items:center;">
+                        <div style="text-align:center;">
+                            <div style="font-size:1.6rem; font-weight:800; color:var(--accent)">${total}</div>
+                            <div style="font-size:0.72rem; color:var(--text-muted)">עובדו אמש</div>
+                        </div>
+                        <div style="text-align:center;">
+                            <div style="font-size:1.6rem; font-weight:800; color:var(--green)">${relevant}</div>
+                            <div style="font-size:0.72rem; color:var(--text-muted)">הותקנו</div>
+                        </div>
+                        <div style="text-align:center;">
+                            <div style="font-size:1.6rem; font-weight:800; color:var(--gray)">${skipped}</div>
+                            <div style="font-size:0.72rem; color:var(--text-muted)">דולגו</div>
+                        </div>
+                        <div style="text-align:center;">
+                            <div style="font-size:1.6rem; font-weight:800; color:var(--orange)">${heavy}</div>
+                            <div style="font-size:0.72rem; color:var(--text-muted)">תור כבד</div>
+                        </div>
+                        <div style="margin-right:auto; font-size:0.78rem; color:var(--text-muted);">
+                            ריצה לילית: 01:05 + 06:30<br>
+                            ${lastRun.last_run ? 'אחרונה: ' + new Date(lastRun.last_run).toLocaleString('he-IL', {day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}) : ''}
+                        </div>
+                    </div>
+                </div>`;
+
+            if (!items.length) {
+                return `
+                    <div class="section-header">
+                        <div class="section-title">⏳ ממתין להתקנה</div>
+                        <div class="section-sub">פריטים שנשלחו לפוקטי ועדיין לא עובדו</div>
+                    </div>
+                    ${statBlock}
+                    <div class="empty"><span class="empty-icon">✅</span><p>אין פריטים ממתינים — הכל עובד!</p></div>`;
+            }
+
+            let rows = items.map(item => `
+                <div class="task-item">
+                    <div class="task-num">${TYPE_ICONS[item.type] || '📌'}</div>
+                    <div class="task-body">
+                        <div class="task-top">
+                            <div class="task-title">${esc(item.title || item.source || 'פריט ממתין')}</div>
+                            <span class="task-prio prio-medium">${PRIO_LABEL[item.priority] || 'ממתין'}</span>
+                        </div>
+                        ${item.description ? `<div class="task-desc">${esc(item.description)}</div>` : ''}
+                        <div class="tl-tags">
+                            ${item.timestamp ? `<span class="badge badge-gray">${fmtDateShort(item.timestamp)}</span>` : ''}
+                            ${item.category ? `<span class="badge">${esc(item.category)}</span>` : ''}
+                        </div>
+                    </div>
+                </div>`).join('');
+
+            return `
+                <div class="section-header">
+                    <div class="section-title">⏳ ממתין להתקנה</div>
+                    <div class="section-sub">${items.length} פריטים מחכים לעיבוד הלילה</div>
+                </div>
+                ${statBlock}
+                <div class="card">${rows}</div>`;
+        }
+
+        // ── Core ─────────────────────────────────────────────────────────────────
+        function setView(view, btn) {
+            _view = view;
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            if (btn) btn.classList.add('active');
+            render();
+            window.scrollTo(0, 0);
+        }
+
+        function render() {
+            if (!_data) return;
+            
+            // Updated: Render billing summary ALWAYS at the top
+            document.getElementById('billingSummary').innerHTML = renderBilling(_data.billing);
+
+            const el = document.getElementById('viewContent');
+            if (_view === 'improvements') el.innerHTML = renderImprovements();
+            else if (_view === 'pending')    el.innerHTML = renderPending();
+            else if (_view === 'projects')   el.innerHTML = renderProjects();
+            else if (_view === 'open_tasks') el.innerHTML = renderOpenTasks();
+        }
+
+        async function refresh() {
+            try {
+                const res = await fetch('data/timeline.json?t=' + Date.now());
+                _data = await res.json();
+                const ts = _data.system_modified_at || _data.last_updated;
+                document.getElementById('lastUpdated').textContent =
+                    'עודכן: ' + (ts ? new Date(ts).toLocaleString('he-IL', { day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit' }) : '—');
+                render();
+            } catch(e) {
+                document.getElementById('lastUpdated').textContent = 'שגיאת טעינה';
+            }
+        }
+
+        refresh();
+        setInterval(refresh, 30000);
+    </script>
+</body>
+</html>
