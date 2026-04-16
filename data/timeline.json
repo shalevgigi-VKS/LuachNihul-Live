@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-16T02:53:01.434084+00:00",
-  "system_modified_at": "2026-04-16T02:53:01.434086+00:00",
+  "last_updated": "2026-04-16T02:56:26.003601+00:00",
+  "system_modified_at": "2026-04-16T02:56:26.003604+00:00",
   "projects": [
     {
       "num": 1,
@@ -364,6 +364,54 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-16T02:56:25.177635+00:00",
+      "category": "system",
+      "what_changed": "פריסה: New skill: duplicate-cleanup-guard. Pre-deploy check for Vercel/GitHub Pages duplicates. Weekly audit in orchestrator.",
+      "why": "duplicate_cleanup_guard",
+      "project": "duplicate_cleanup_guard",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T02:56:25.177625+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: LuachNihul events now partially translated to Hebrew with REASON_TRANSLATIONS dict.",
+      "why": "luachnihul_i18n",
+      "project": "luachnihul_i18n",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T02:56:25.177613+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: New rule: no-exposed-files. Public repos = only rendered website. Never source code, configs, .env, cost logs.",
+      "why": "security_rule",
+      "project": "security_rule",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T02:56:25.177582+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: overnight_worker.py created + Task Scheduler ClaudeOvernightWorker at 02:00. First run: all sites OK, Vercel clean, lapt",
+      "why": "overnight_worker",
+      "project": "overnight_worker",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T02:56:25.177514+00:00",
+      "category": "system",
+      "what_changed": "פריסה: Chadshani deploy workflow fixed — only index.html+latest.json+assets deployed to Pages. cost_log.json no longer exposed ",
+      "why": "security",
+      "project": "security",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T02:53:14.518853+00:00",
+      "category": "system",
+      "what_changed": "פריסה: LuachNihul data: OK | LuachNihul deploy: OK | Vercel: clean (0 projects) | Laptop 192.168.1.202: DOWN | Chadshani: OK | ",
+      "why": "overnight_worker",
+      "project": "overnight_worker",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-15T22:08:35.588930+00:00",
       "category": "system",
       "what_changed": "שינוי מערכת: 5 new feedback rules: verify-before-notify, never-announce-prematurely, delegate-always, gemini-session-lessons, everyth",
@@ -714,60 +762,12 @@
       "why": "pending-cleanup-2026-04-13-01.md",
       "project": "pending-cleanup-2026-04-13-01.md",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-13T18:20:41Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: CHADSHANI: MANDATORY MAINTENANCE MODE ACTIVATION",
-      "why": ".github/workflows/chadshani-deploy-bypass.yml,FORCE_EVERYTHING.bat,RESCUE_MAINTENANCE.bat,Shalev's_Projects/6_LinkToText,tools/bgutil-ytdlp-pot-provider",
-      "project": ".github/workflows/chadshani-deploy-bypass.yml,FORCE_EVERYTHING.bat,RESCUE_MAINTENANCE.bat,Shalev's_Projects/6_LinkToText,tools/bgutil-ytdlp-pot-provider",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-13T17:35:46Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: CHADSHANI: Emergency maintenance activation (Rescue Push)",
-      "why": "Shalev's_Projects/6_LinkToText,cleanup_log.txt,tools/bgutil-ytdlp-pot-provider",
-      "project": "Shalev's_Projects/6_LinkToText,cleanup_log.txt,tools/bgutil-ytdlp-pot-provider",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-13T16:10:28Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: CHADSHANI: Emergency maintenance activation (Rescue Push)",
-      "why": "RESCUE_MAINTENANCE.bat,Shalev's_Projects/6_LinkToText,tools/bgutil-ytdlp-pot-provider",
-      "project": "RESCUE_MAINTENANCE.bat,Shalev's_Projects/6_LinkToText,tools/bgutil-ytdlp-pot-provider",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-13T16:04:46Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: CHADSHANI: Maintenance mode activated and cost-prevention kill-switch enabled",
-      "why": "PROJECT_STATUS.md,PUSH_MAINTENANCE.bat,Shalev's_Projects/10_TmunoteAI/PROJECT_CARD.md,Shalev's_Projects/11_PocketClaude/PROJECT_CARD.md,Shalev's_Projects/12_LuachNihul/PROJECT_CARD.md,Shalev's_Projects/12_LuachNihul/data/timeline.json,Shalev's_Projects/12_LuachNihul/generate_data.py,Shalev's_Projects/1_EmotionWheel/PROJECT_CARD.md,Shalev's_Projects/2_Chadshani/PREFERENCES.md,Shalev's_Projects/2_Chadshani/PROJECT_CARD.md,Shalev's_Projects/2_Chadshani/chadshani_auto.py,Shalev's_Projects/2_Chadshani/index.html,Shalev's_Projects/2_Chadshani/index_template.html,Shalev's_Projects/6_LinkToText,Shalev's_Projects/7_LCL/PROJECT_CARD.md,Shalev's_Projects/9_Kesem/PROJECT_CARD.md,cleanup_log.txt,handoff_state.json,inbox/.ollama_last_run,inbox/items.jsonl,inbox/last_processed.json,inbox/processed_images.txt,tools/append_solutions_2026_04_12.py,tools/bgutil-ytdlp-pot-provider,tools/bug_learner_custom_prev.py,tools/bug_learner_today.py,tools/check_no_prev_final.py,tools/close_remaining_prev.py,tools/final_sweep_apr12.py,tools/system_sync_last_check.json",
-      "project": "PROJECT_STATUS.md,PUSH_MAINTENANCE.bat,Shalev's_Projects/10_TmunoteAI/PROJECT_CARD.md,Shalev's_Projects/11_PocketClaude/PROJECT_CARD.md,Shalev's_Projects/12_LuachNihul/PROJECT_CARD.md,Shalev's_Projects/12_LuachNihul/data/timeline.json,Shalev's_Projects/12_LuachNihul/generate_data.py,Shalev's_Projects/1_EmotionWheel/PROJECT_CARD.md,Shalev's_Projects/2_Chadshani/PREFERENCES.md,Shalev's_Projects/2_Chadshani/PROJECT_CARD.md,Shalev's_Projects/2_Chadshani/chadshani_auto.py,Shalev's_Projects/2_Chadshani/index.html,Shalev's_Projects/2_Chadshani/index_template.html,Shalev's_Projects/6_LinkToText,Shalev's_Projects/7_LCL/PROJECT_CARD.md,Shalev's_Projects/9_Kesem/PROJECT_CARD.md,cleanup_log.txt,handoff_state.json,inbox/.ollama_last_run,inbox/items.jsonl,inbox/last_processed.json,inbox/processed_images.txt,tools/append_solutions_2026_04_12.py,tools/bgutil-ytdlp-pot-provider,tools/bug_learner_custom_prev.py,tools/bug_learner_today.py,tools/check_no_prev_final.py,tools/close_remaining_prev.py,tools/final_sweep_apr12.py,tools/system_sync_last_check.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-13T03:00:02Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: daily synthesis complete — 8 topics from yesterday, 15 all-time topic types tracked, 0 experimental skills flagged for p",
-      "why": "daily-learner",
-      "project": "daily-learner",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-12T23:46:50.150644+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: nightly check: 0 auto-fixes, 0 warnings",
-      "why": "nightly-health-check",
-      "project": "nightly-health-check",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 22.02,
     "currency": "ILS",
-    "last_synced": "2026-04-16T02:53:01.434071+00:00",
+    "last_synced": "2026-04-16T02:56:26.003586+00:00",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
