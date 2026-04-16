@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-16T03:00:44.871704+00:00",
-  "system_modified_at": "2026-04-16T03:00:44.871707+00:00",
+  "last_updated": "2026-04-16T03:02:00.173987+00:00",
+  "system_modified_at": "2026-04-16T03:02:00.173989+00:00",
   "projects": [
     {
       "num": 1,
@@ -363,6 +363,22 @@
     }
   ],
   "system_improvements": [
+    {
+      "timestamp": "2026-04-16T03:01:08.256603+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: overnight_worker.py tested + ClaudeOvernightWorker task installed at 02:00 daily. ntfy routed through notifier.py.",
+      "why": "overnight_worker",
+      "project": "overnight_worker",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:01:08.256552+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: All tabs verified working: שודרג(50 events), ממתין, פתוח, אבולוציה, פרויקטים(12). Logo added. Private status fixed. Hebr",
+      "why": "luachnihul",
+      "project": "luachnihul",
+      "source_type": "events_jsonl"
+    },
     {
       "timestamp": "2026-04-16T02:56:25.177635+00:00",
       "category": "system",
@@ -746,28 +762,12 @@
       "why": "daily-learner",
       "project": "daily-learner",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-13T22:47:26Z",
-      "category": "system",
-      "what_changed": "ריצה לילית הושלמה: nightly run complete: 2 שופרו אוטומטית | 2 קבצים נוקו",
-      "why": "nightly-optimizer",
-      "project": "nightly-optimizer",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-13T22:47:13Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: auto-deleted: orphaned pending file >1h old",
-      "why": "pending-cleanup-2026-04-13-01.md",
-      "project": "pending-cleanup-2026-04-13-01.md",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 22.02,
     "currency": "ILS",
-    "last_synced": "2026-04-16T03:00:44.871692+00:00",
+    "last_synced": "2026-04-16T03:02:00.173974+00:00",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
