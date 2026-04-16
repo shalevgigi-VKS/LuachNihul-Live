@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-16T03:02:00.173987+00:00",
-  "system_modified_at": "2026-04-16T03:02:00.173989+00:00",
+  "last_updated": "2026-04-16T03:17:43.994176+00:00",
+  "system_modified_at": "2026-04-16T03:17:43.994179+00:00",
   "projects": [
     {
       "num": 1,
@@ -363,6 +363,14 @@
     }
   ],
   "system_improvements": [
+    {
+      "timestamp": "2026-04-16T03:02:59Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Auto-cleanup: 7 temp files deleted (80 KB freed)",
+      "why": "playwright-cleanup",
+      "project": "playwright-cleanup",
+      "source_type": "events_jsonl"
+    },
     {
       "timestamp": "2026-04-16T03:01:08.256603+00:00",
       "category": "system",
@@ -754,20 +762,12 @@
       "why": "skill:automation",
       "project": "skill:automation",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-14T03:00:04Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: daily synthesis complete — 0 topics from yesterday, 15 all-time topic types tracked, 0 experimental skills flagged for p",
-      "why": "daily-learner",
-      "project": "daily-learner",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 22.02,
     "currency": "ILS",
-    "last_synced": "2026-04-16T03:02:00.173974+00:00",
+    "last_synced": "2026-04-16T03:17:43.994162+00:00",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
