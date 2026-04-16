@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-04-16T02:56:26.003601+00:00",
-  "system_modified_at": "2026-04-16T02:56:26.003604+00:00",
+  "last_updated": "2026-04-16T03:00:44.871704+00:00",
+  "system_modified_at": "2026-04-16T03:00:44.871707+00:00",
   "projects": [
     {
       "num": 1,
       "name": "גלגל רגשות",
       "folder": "1_EmotionWheel",
-      "status": "🔒 Private",
-      "emoji": "❓",
+      "status": "פרטי",
+      "emoji": "🔒",
       "url": "https://shalevgigi-vks.github.io/Emotion-Wheel/"
     },
     {
@@ -767,7 +767,7 @@
   "billing": {
     "current_balance_ils": 22.02,
     "currency": "ILS",
-    "last_synced": "2026-04-16T02:56:26.003586+00:00",
+    "last_synced": "2026-04-16T03:00:44.871692+00:00",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
