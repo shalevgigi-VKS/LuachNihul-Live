@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-16T03:17:43.994176+00:00",
-  "system_modified_at": "2026-04-16T03:17:43.994179+00:00",
+  "last_updated": "2026-04-16T03:26:41.344675+00:00",
+  "system_modified_at": "2026-04-16T03:26:41.344678+00:00",
   "projects": [
     {
       "num": 1,
@@ -364,6 +364,102 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-16T03:26:01.940604+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: MCP Memory server added to settings.json — cross-session knowledge graph at E:/Claude/rag/mcp_memory.jsonl",
+      "why": "mcp_memory",
+      "project": "mcp_memory",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:26:01.940578+00:00",
+      "category": "system",
+      "what_changed": "ריפו נסרק: Scanned. claude-quickstarts-patterns.md created — 11 patterns (agent loop, prompt caching, RAG, parallel tools, etc).",
+      "why": "claude-quickstarts",
+      "project": "claude-quickstarts",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:26:01.940526+00:00",
+      "category": "system",
+      "what_changed": "ריפו נסרק: Scanned. free-design-catalog.md created — 20 free design tools in 9 categories.",
+      "why": "Awesome-Design-Tools",
+      "project": "Awesome-Design-Tools",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:24:48.790862+00:00",
+      "category": "system",
+      "what_changed": "ריפו נסרק: Scanned. 6 high-value skills found (oracle, forge, chronicle, pathfinder, vector, hunter). Need adaptation from plugin f",
+      "why": "claude-code-on-steroids",
+      "project": "claude-code-on-steroids",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:24:48.790851+00:00",
+      "category": "system",
+      "what_changed": "ריפו נסרק: Scanned. Recommended: Git MCP + Memory MCP. Memory installed. Filesystem=skip(redundant). Fetch=optional.",
+      "why": "mcp-servers-official",
+      "project": "mcp-servers-official",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:24:48.790834+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: verify-before-notify rule added to PREFERENCES.md of: Evolution, LuachNihul, PocketClaude, LinkToText",
+      "why": "preferences_updated",
+      "project": "preferences_updated",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:24:48.790807+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: MCP Memory server installed — cross-session knowledge graph at E:/Claude/rag/mcp_memory.jsonl",
+      "why": "mcp_memory",
+      "project": "mcp_memory",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:24:48.790747+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: PreCompact hook installed — session_autosave.py runs on every context compaction. Power outage protection.",
+      "why": "session_autosave_hook",
+      "project": "session_autosave_hook",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:19:12Z",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Auto-cleanup: 6 temp files deleted (59 KB freed)",
+      "why": "playwright-cleanup",
+      "project": "playwright-cleanup",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:18:35.005730+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Extended continuous-self-improvement rule: every request→memory→PREFERENCES→automation. Rule without automation = not le",
+      "why": "feedback_rules",
+      "project": "feedback_rules",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:18:35.005702+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Enhanced with self-check integration (step 5). Full pipeline: LuachNihul→Vercel→Laptop→Sites→SelfCheck→RepoScan→Save→ntf",
+      "why": "overnight_worker",
+      "project": "overnight_worker",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:18:35.005656+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: self_check.py created + ClaudeSelfCheck task at 07:00. Checks: sites, Vercel dupes, exposed files, task scheduler, lapto",
+      "why": "self_check",
+      "project": "self_check",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-16T03:02:59Z",
       "category": "system",
       "what_changed": "שינוי מערכת: Auto-cleanup: 7 temp files deleted (80 KB freed)",
@@ -666,108 +762,12 @@
       "why": "awesome-mcp-servers",
       "project": "awesome-mcp-servers",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T20:24:07.002016+00:00",
-      "category": "system",
-      "what_changed": "ריפו נסרק: נסרק: 0P 0S 0T 0A",
-      "why": "claude-code-on-steroids",
-      "project": "claude-code-on-steroids",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T20:20:06.636349+00:00",
-      "category": "system",
-      "what_changed": "ריפו נסרק: נסרק: 6P 3S 4T 1A",
-      "why": "everything-claude-code",
-      "project": "everything-claude-code",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T20:19:26.309039+00:00",
-      "category": "system",
-      "what_changed": "משימה הושלמה: Remediation task 8 completed: OK: added --batch-size and --batch-sleep flags to rag_ingest.py",
-      "why": "RAG Lightweight Mode",
-      "project": "RAG Lightweight Mode",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T20:19:26.162646+00:00",
-      "category": "system",
-      "what_changed": "משימה הושלמה: Remediation task 4 completed: OK: sanitize ran successfully. Output: 2026-04-15 23:19:07,921 | INFO | Starting Sheets sa",
-      "why": "Sheets History Dedup",
-      "project": "Sheets History Dedup",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T20:18:55.396851+00:00",
-      "category": "system",
-      "what_changed": "ריפו נסרק: נסרק: 13P 7S 6T 1A",
-      "why": "everything-claude-code",
-      "project": "everything-claude-code",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T19:55:13.625451+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: 10 ECC core סקילים הותקנו: tdd-workflow, verification-loop, strategic-compact, eval-harness, continuous-learning, con",
-      "why": "ECC_installation",
-      "project": "ECC_installation",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T19:47:35.251626+00:00",
-      "category": "system",
-      "what_changed": "פריסה: V2 (Ragi) deployed — Ollama-powered, RAG-integrated, inbox relay",
-      "why": "PocketClaude",
-      "project": "PocketClaude",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T19:47:35.251624+00:00",
-      "category": "system",
-      "what_changed": "פריסה: Watchlist removed, bold fixed, Chadshani-Live repo created, deploy workflow fixed",
-      "why": "Chadshani",
-      "project": "Chadshani",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T19:47:35.251622+00:00",
-      "category": "system",
-      "what_changed": "עדכון פרויקט: events.jsonl integration, scan 80→500, auto billing from cost_log",
-      "why": "LuachNihul",
-      "project": "LuachNihul",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T19:47:35.251619+00:00",
-      "category": "system",
-      "what_changed": "פריסה: Mobile nav fix deployed — buttons wrap on small screens",
-      "why": "Evolution",
-      "project": "Evolution",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T19:47:35.251601+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: 30 tasks disabled, LightRAG+Ollama installed, bot_v2 running, 4 sites fixed, 12 repos cloned, ECC installed",
-      "why": "RAGGY_session",
-      "project": "RAGGY_session",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-14T03:01:20Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: auto-skill-builder created skill for pattern 'automation' (15x threshold exceeded)",
-      "why": "skill:automation",
-      "project": "skill:automation",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 22.02,
     "currency": "ILS",
-    "last_synced": "2026-04-16T03:17:43.994162+00:00",
+    "last_synced": "2026-04-16T03:26:41.344663+00:00",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
