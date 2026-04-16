@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-16T03:26:41.344675+00:00",
-  "system_modified_at": "2026-04-16T03:26:41.344678+00:00",
+  "last_updated": "2026-04-16T03:29:38.878788+00:00",
+  "system_modified_at": "2026-04-16T03:29:38.878794+00:00",
   "projects": [
     {
       "num": 1,
@@ -363,6 +363,30 @@
     }
   ],
   "system_improvements": [
+    {
+      "timestamp": "2026-04-16T03:28:02.789644+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Session 2026-04-16: 71 skills active, 10/11 repos scanned+integrated, 8 Task Scheduler tasks, self-check OK, all sites v",
+      "why": "session_state",
+      "project": "session_state",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:28:02.789622+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: PREFERENCES.md created for ALL 12 projects. verify-before-notify rule in every file. 100% coverage.",
+      "why": "preferences",
+      "project": "preferences",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-16T03:28:02.789549+00:00",
+      "category": "system",
+      "what_changed": "ריפו נסרק: Scanned. squad-orchestration.md created (1450 lines) — 5 patterns: lifecycle, fan-out, coordinator, Ralph watch, cross-s",
+      "why": "squad",
+      "project": "squad",
+      "source_type": "events_jsonl"
+    },
     {
       "timestamp": "2026-04-16T03:26:01.940604+00:00",
       "category": "system",
@@ -738,38 +762,95 @@
       "why": "API-mega-list",
       "project": "API-mega-list",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T20:39:54.389494+00:00",
-      "category": "system",
-      "what_changed": "ריפו נסרק: נסרק: 4P 5S 3T 0A",
-      "why": "claude-code-on-steroids",
-      "project": "claude-code-on-steroids",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T20:36:26.961578+00:00",
-      "category": "system",
-      "what_changed": "ריפו נסרק: נסרק: 0P 0S 0T 0A",
-      "why": "everything-claude-code",
-      "project": "everything-claude-code",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-15T20:28:32.660584+00:00",
-      "category": "system",
-      "what_changed": "ריפו נסרק: נסרק: 0P 0S 0T 0A",
-      "why": "awesome-mcp-servers",
-      "project": "awesome-mcp-servers",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 22.02,
     "currency": "ILS",
-    "last_synced": "2026-04-16T03:26:41.344663+00:00",
+    "last_synced": "2026-04-16T03:29:38.878728+00:00",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
-  "open_tasks": []
+  "open_tasks": [
+    {
+      "id": "task_020",
+      "title": "הגדרת SSH + Ollama על הלפטופ",
+      "priority": "critical",
+      "category": "infrastructure",
+      "project": "שליטה מרחוק",
+      "status": "blocked",
+      "description": "לפטופ 192.168.1.202 כבוי. כשידלק — python setup_remote_machine.py --ip 192.168.1.202",
+      "created": "2026-04-16T00:00:00Z"
+    },
+    {
+      "id": "task_021",
+      "title": "הפעלת Ragi (bot_v2) על הלפטופ",
+      "priority": "high",
+      "category": "infrastructure",
+      "project": "פוקטי",
+      "status": "blocked",
+      "description": "תלוי בהתקנת לפטופ. bot_v2.py מוכן, Ollama נדרש.",
+      "created": "2026-04-16T00:00:00Z"
+    },
+    {
+      "id": "task_022",
+      "title": "Chadshani local pipeline — Ollama על הלפטופ",
+      "priority": "medium",
+      "category": "feature",
+      "project": "חדשני",
+      "status": "blocked",
+      "description": "generate_json_local.py מוכן. צריך Ollama+qwen2.5:7b על הלפטופ.",
+      "created": "2026-04-16T00:00:00Z"
+    },
+    {
+      "id": "task_023",
+      "title": "הרשמה ל-OpenRouter API (חינמי)",
+      "priority": "medium",
+      "category": "infrastructure",
+      "project": "מערכת",
+      "status": "open",
+      "description": "openrouter.ai — API key חינמי. נדרש לדפדפן.",
+      "created": "2026-04-16T00:00:00Z"
+    },
+    {
+      "id": "task_024",
+      "title": "תרגום מלא של אירועי LuachNihul לעברית",
+      "priority": "low",
+      "category": "improvement",
+      "project": "לוח ניהול",
+      "status": "open",
+      "description": "חלק מהאירועים עדיין באנגלית. צריך להרחיב REASON_TRANSLATIONS.",
+      "created": "2026-04-16T00:00:00Z"
+    },
+    {
+      "id": "task_004",
+      "title": "dispatcher.py — ניתוב משימות בין מחשבים",
+      "priority": "medium",
+      "category": "feature",
+      "project": "שליטה מרחוק",
+      "status": "blocked",
+      "description": "תלוי בהתקנת לפטופ. dispatcher.py קיים, workers.json מעודכן.",
+      "created": "2026-04-11T00:00:00Z"
+    },
+    {
+      "id": "task_005",
+      "title": "SPF Smart Gate — בדיקה ושילוב",
+      "priority": "low",
+      "category": "evaluation",
+      "project": "מערכת",
+      "status": "open",
+      "description": "שכבת אבטחה ל-LLM. ממתין להערכה.",
+      "created": "2026-04-11T00:00:00Z"
+    },
+    {
+      "id": "task_008",
+      "title": "Golem AI — הערכה",
+      "priority": "low",
+      "category": "evaluation",
+      "project": "פוקטי",
+      "status": "open",
+      "description": "פלטפורמת סוכנים. האם מחליף/משלים bot.py?",
+      "created": "2026-04-11T00:00:00Z"
+    }
+  ]
 }
