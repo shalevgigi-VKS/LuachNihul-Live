@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-15T22:06:50.032083+00:00",
-  "system_modified_at": "2026-04-15T22:06:50.032085+00:00",
+  "last_updated": "2026-04-16T02:49:48.067867+00:00",
+  "system_modified_at": "2026-04-16T02:49:48.067870+00:00",
   "projects": [
     {
       "num": 1,
@@ -364,9 +364,49 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-15T22:08:35.588930+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: 5 new feedback rules: verify-before-notify, never-announce-prematurely, delegate-always, gemini-session-lessons, everyth",
+      "why": "feedback_rules",
+      "project": "feedback_rules",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T22:08:35.588921+00:00",
+      "category": "system",
+      "what_changed": "פריסה: New skills: deploy-verify-notify (mandatory אימות ויזואלי before ntfy).",
+      "why": "skills_created",
+      "project": "skills_created",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T22:08:35.588910+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Google Doc updated with correct GitHub Pages URLs for all 12 projects.",
+      "why": "google_links_doc",
+      "project": "google_links_doc",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T22:08:35.588887+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: עודכן homepage URLs for Evolution-Live, Chadshani-Live, LuachNihul-Live, Linky-Live repos.",
+      "why": "github_homepages",
+      "project": "github_homepages",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-15T22:08:35.588843+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: נמחק 3 כפילויות Vercel: chadshani, evolution-live, claude-dashboard-shalev. All sites now on GitHub Pages only.",
+      "why": "vercel_cleanup",
+      "project": "vercel_cleanup",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-15T22:00:59.517676+00:00",
       "category": "system",
-      "what_changed": "עדכון פרויקט: GitHub Actions workflow_dispatch test: SUCCESS. Pipeline operational again.",
+      "what_changed": "עדכון פרויקט: GitHub Actions workflow_dispatch test: SUCCESS. צינור פעיל again.",
       "why": "Chadshani",
       "project": "Chadshani",
       "source_type": "events_jsonl"
@@ -374,7 +414,7 @@
     {
       "timestamp": "2026-04-15T22:00:59.517625+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Fixed: requirements.txt was missing from GitHub repo — caused all Actions runs to fail since module refactor. Now google",
+      "what_changed": "שינוי מערכת: תוקן: requirements.txt חסר from GitHub repo — caused all Actions runs to fail since module refactor. Now google",
       "why": "chadshani_pipeline",
       "project": "chadshani_pipeline",
       "source_type": "events_jsonl"
@@ -382,7 +422,7 @@
     {
       "timestamp": "2026-04-15T21:57:30.209648+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Updated skills_registry.md (14 new skills) + system_integrations_map.md (3 new integrations: autonomous-ops, LightRAG, O",
+      "what_changed": "שינוי מערכת: עודכן skills_registry.md (14 new skills) + system_integrations_map.md (3 אינטגרציות חדשות: autonomous-ops, LightRAG, O",
       "why": "registries",
       "project": "registries",
       "source_type": "events_jsonl"
@@ -390,7 +430,7 @@
     {
       "timestamp": "2026-04-15T21:57:30.209634+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Re-enabled 6 non-Ollama tasks: LinkProcessor, Backup, SanitizeSheets, MorningBriefing, LinksDocUpdate, WeeklyRetry.",
+      "what_changed": "שינוי מערכת: הופעל מחדש 6 משימות ללא Ollama: LinkProcessor, Backup, SanitizeSheets, MorningBriefing, LinksDocUpdate, WeeklyRetry.",
       "why": "task_scheduler",
       "project": "task_scheduler",
       "source_type": "events_jsonl"
@@ -406,7 +446,7 @@
     {
       "timestamp": "2026-04-15T21:57:30.209570+00:00",
       "category": "system",
-      "what_changed": "פריסה: Mind map updated: 63 skills, automation section, Ragi V2. Deployed to Evolution-Live. Fixed vite base path.",
+      "what_changed": "פריסה: מפת חשיבה עודכנה: 63 skills, automation section, Ragi V2. Deployed to Evolution-Live. Fixed vite base path.",
       "why": "Evolution",
       "project": "Evolution",
       "source_type": "events_jsonl"
@@ -422,7 +462,7 @@
     {
       "timestamp": "2026-04-15T21:40:00.457865+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Audit complete: 4 items marked done (orchestrator, architecture, ECC, LightRAG), 11 remaining",
+      "what_changed": "שינוי ארכיטקטורה: Audit complete: 4 items marked done (orchestrator, architecture, ECC, LightRAG), 11 remaining",
       "why": "past_requests_audit",
       "project": "past_requests_audit",
       "source_type": "events_jsonl"
@@ -438,7 +478,7 @@
     {
       "timestamp": "2026-04-15T21:40:00.457787+00:00",
       "category": "system",
-      "what_changed": "פריסה: 12 new ECC skills installed: python-patterns, python-testing, context-budget, cost-aware-llm-pipeline, dashboard-builder",
+      "what_changed": "פריסה: 12 new ECC סקילים הותקנו: python-patterns, python-testing, context-budget, cost-aware-llm-pipeline, dashboard-builder",
       "why": "ECC_skills",
       "project": "ECC_skills",
       "source_type": "events_jsonl"
@@ -446,7 +486,7 @@
     {
       "timestamp": "2026-04-15T21:31:48.282127+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Disabled on desktop: ClaudeOrchestratorNight, ClaudeOrchestratorEvening, PocketClaudeWatchdog. Will re-enable on laptop.",
+      "what_changed": "שינוי מערכת: הושבת on desktop: ClaudeOrchestratorNight, ClaudeOrchestratorEvening, PocketClaudeWatchdog. Will re-enable on laptop.",
       "why": "task_scheduler",
       "project": "task_scheduler",
       "source_type": "events_jsonl"
@@ -470,7 +510,7 @@
     {
       "timestamp": "2026-04-15T21:31:48.281865+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Desktop=Planner only, Laptop=Executor. Ollama killed on desktop (100% CPU). All processing moves to laptop 192.168.1.202",
+      "what_changed": "שינוי מערכת: נייח=מתכנן only, לפטופ=מבצע. Ollama killed on desktop (100% CPU). All processing moves to laptop 192.168.1.202",
       "why": "architecture",
       "project": "architecture",
       "source_type": "events_jsonl"
@@ -478,7 +518,7 @@
     {
       "timestamp": "2026-04-15T21:04:08.402443+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 4P 7S 7T 0A",
+      "what_changed": "ריפו נסרק: נסרק: 4P 7S 7T 0A",
       "why": "anthropic-claude-code-ref",
       "project": "anthropic-claude-code-ref",
       "source_type": "events_jsonl"
@@ -486,7 +526,7 @@
     {
       "timestamp": "2026-04-15T21:03:05.459654+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "what_changed": "ריפו נסרק: נסרק: 0P 0S 0T 0A",
       "why": "squad",
       "project": "squad",
       "source_type": "events_jsonl"
@@ -494,7 +534,7 @@
     {
       "timestamp": "2026-04-15T20:59:39.380885+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 6P 5S 12T 7A",
+      "what_changed": "ריפו נסרק: נסרק: 6P 5S 12T 7A",
       "why": "mcp-servers-official",
       "project": "mcp-servers-official",
       "source_type": "events_jsonl"
@@ -502,7 +542,7 @@
     {
       "timestamp": "2026-04-15T20:55:47.125423+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "what_changed": "ריפו נסרק: נסרק: 0P 0S 0T 0A",
       "why": "Awesome-Design-Tools",
       "project": "Awesome-Design-Tools",
       "source_type": "events_jsonl"
@@ -510,7 +550,7 @@
     {
       "timestamp": "2026-04-15T20:52:11.568869+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "what_changed": "ריפו נסרק: נסרק: 0P 0S 0T 0A",
       "why": "claude-quickstarts",
       "project": "claude-quickstarts",
       "source_type": "events_jsonl"
@@ -518,7 +558,7 @@
     {
       "timestamp": "2026-04-15T20:50:54.754895+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 5P 7S 3T 3A",
+      "what_changed": "ריפו נסרק: נסרק: 5P 7S 3T 3A",
       "why": "claude-code-repo",
       "project": "claude-code-repo",
       "source_type": "events_jsonl"
@@ -526,7 +566,7 @@
     {
       "timestamp": "2026-04-15T20:47:50.434214+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "what_changed": "ריפו נסרק: נסרק: 0P 0S 0T 0A",
       "why": "API-mega-list",
       "project": "API-mega-list",
       "source_type": "events_jsonl"
@@ -534,7 +574,7 @@
     {
       "timestamp": "2026-04-15T20:39:54.389494+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 4P 5S 3T 0A",
+      "what_changed": "ריפו נסרק: נסרק: 4P 5S 3T 0A",
       "why": "claude-code-on-steroids",
       "project": "claude-code-on-steroids",
       "source_type": "events_jsonl"
@@ -542,7 +582,7 @@
     {
       "timestamp": "2026-04-15T20:36:26.961578+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "what_changed": "ריפו נסרק: נסרק: 0P 0S 0T 0A",
       "why": "everything-claude-code",
       "project": "everything-claude-code",
       "source_type": "events_jsonl"
@@ -550,7 +590,7 @@
     {
       "timestamp": "2026-04-15T20:28:32.660584+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "what_changed": "ריפו נסרק: נסרק: 0P 0S 0T 0A",
       "why": "awesome-mcp-servers",
       "project": "awesome-mcp-servers",
       "source_type": "events_jsonl"
@@ -558,7 +598,7 @@
     {
       "timestamp": "2026-04-15T20:24:07.002016+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 0P 0S 0T 0A",
+      "what_changed": "ריפו נסרק: נסרק: 0P 0S 0T 0A",
       "why": "claude-code-on-steroids",
       "project": "claude-code-on-steroids",
       "source_type": "events_jsonl"
@@ -566,7 +606,7 @@
     {
       "timestamp": "2026-04-15T20:20:06.636349+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 6P 3S 4T 1A",
+      "what_changed": "ריפו נסרק: נסרק: 6P 3S 4T 1A",
       "why": "everything-claude-code",
       "project": "everything-claude-code",
       "source_type": "events_jsonl"
@@ -574,7 +614,7 @@
     {
       "timestamp": "2026-04-15T20:19:26.309039+00:00",
       "category": "system",
-      "what_changed": "task_completed: Remediation task 8 completed: OK: added --batch-size and --batch-sleep flags to rag_ingest.py",
+      "what_changed": "משימה הושלמה: Remediation task 8 completed: OK: added --batch-size and --batch-sleep flags to rag_ingest.py",
       "why": "RAG Lightweight Mode",
       "project": "RAG Lightweight Mode",
       "source_type": "events_jsonl"
@@ -582,7 +622,7 @@
     {
       "timestamp": "2026-04-15T20:19:26.162646+00:00",
       "category": "system",
-      "what_changed": "task_completed: Remediation task 4 completed: OK: sanitize ran successfully. Output: 2026-04-15 23:19:07,921 | INFO | Starting Sheets sa",
+      "what_changed": "משימה הושלמה: Remediation task 4 completed: OK: sanitize ran successfully. Output: 2026-04-15 23:19:07,921 | INFO | Starting Sheets sa",
       "why": "Sheets History Dedup",
       "project": "Sheets History Dedup",
       "source_type": "events_jsonl"
@@ -590,7 +630,7 @@
     {
       "timestamp": "2026-04-15T20:18:55.396851+00:00",
       "category": "system",
-      "what_changed": "repo_scanned: Scanned: 13P 7S 6T 1A",
+      "what_changed": "ריפו נסרק: נסרק: 13P 7S 6T 1A",
       "why": "everything-claude-code",
       "project": "everything-claude-code",
       "source_type": "events_jsonl"
@@ -598,7 +638,7 @@
     {
       "timestamp": "2026-04-15T19:55:13.625451+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: 10 ECC core skills installed: tdd-workflow, verification-loop, strategic-compact, eval-harness, continuous-learning, con",
+      "what_changed": "שינוי מערכת: 10 ECC core סקילים הותקנו: tdd-workflow, verification-loop, strategic-compact, eval-harness, continuous-learning, con",
       "why": "ECC_installation",
       "project": "ECC_installation",
       "source_type": "events_jsonl"
@@ -722,52 +762,12 @@
       "why": "nightly-health-check",
       "project": "nightly-health-check",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-12T22:59:13.718474Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: stale docs scan: 2 candidates in project 8 (EvolutionSchematic). All 5 checks passed. Other 4 projects skipped (uncommit",
-      "why": "stale-docs-cleaner",
-      "project": "stale-docs-cleaner",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-12T22:47:05Z",
-      "category": "system",
-      "what_changed": "ריצה לילית הושלמה: nightly run complete: 121 שופרו אוטומטית | 121 קבצים נוקו",
-      "why": "nightly-optimizer",
-      "project": "nightly-optimizer",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-12T22:46:57Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: auto-deleted: orphaned pending file >1h old",
-      "why": "pending-doc-update-.md",
-      "project": "pending-doc-update-.md",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-12T22:46:57Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: auto-deleted: orphaned pending file >1h old",
-      "why": "pending-doc-update-2026-04-12-0146.md",
-      "project": "pending-doc-update-2026-04-12-0146.md",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-12T22:46:57Z",
-      "category": "system",
-      "what_changed": "שינוי מערכת: auto-deleted: orphaned pending file >1h old",
-      "why": "pending-doc-update-2026-04-12-0626.md",
-      "project": "pending-doc-update-2026-04-12-0626.md",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 22.02,
     "currency": "ILS",
-    "last_synced": "2026-04-15T22:06:50.032071+00:00",
+    "last_synced": "2026-04-16T02:49:48.067847+00:00",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
