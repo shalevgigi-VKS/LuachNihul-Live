@@ -668,6 +668,16 @@
                 <div class="section-header">
                     <div class="section-title">פרויקטים</div>
                     <div class="section-sub">${active.length} פעילים · ${frozen.length} מוקפאים</div>
+                </div>
+                <div class="project-row" style="border-color:var(--accent);background:var(--accent-light);">
+                    <div class="proj-top">
+                        <span class="proj-num">8</span>
+                        <span class="proj-emoji">🧠</span>
+                        <span class="proj-name" style="font-weight:800">אבולוציה — Evolution Schematic</span>
+                        <span class="proj-status-badge status-active">יציב</span>
+                    </div>
+                    <div class="proj-purpose" style="font-size:0.88rem;color:var(--text-muted);margin-bottom:10px">מפת האבולוציה של מערכת Claude Code — ויזואליזציה של צמיחת המערכת, סקילים, הוקים ואינטגרציות לאורך זמן</div>
+                    <a href="https://shalevgigi-vks.github.io/Evolution-Live/" target="_blank" class="proj-link">🔗 פתח אבולוציה ↗</a>
                 </div>`;
 
             for (const p of active) html += projectCard(p);
