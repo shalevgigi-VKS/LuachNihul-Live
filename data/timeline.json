@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-04-18T05:43:50.882078+00:00",
-  "system_modified_at": "2026-04-18T05:43:50.882081+00:00",
+  "last_updated": "2026-04-24T07:16:10.673519+00:00",
+  "system_modified_at": "2026-04-24T07:16:10.673522+00:00",
   "projects": [
     {
       "num": 1,
       "name": "גלגל רגשות",
       "folder": "1_EmotionWheel",
-      "status": "פרטי",
-      "emoji": "🔒",
-      "url": "https://shalevgigi-vks.github.io/Emotion-Wheel/"
+      "status": "פעיל",
+      "emoji": "✅",
+      "url": ""
     },
     {
       "num": 2,
@@ -44,7 +44,7 @@
     },
     {
       "num": 6,
-      "name": "לינקי",
+      "name": "לינקי (Linky)",
       "folder": "6_LinkToText",
       "status": "פעיל",
       "emoji": "✅",
@@ -97,9 +97,185 @@
       "status": "פעיל",
       "emoji": "✅",
       "url": "https://shalevgigi-vks.github.io/LuachNihul-Live/"
+    },
+    {
+      "num": 13,
+      "name": "ראגי",
+      "folder": "13_Ragi",
+      "status": "פעיל",
+      "emoji": "✅",
+      "url": "http://192.168.1.202:9800"
+    },
+    {
+      "num": 14,
+      "name": "חלצני",
+      "folder": "14_Halatzani",
+      "status": "פעיל",
+      "emoji": "✅",
+      "url": ""
+    },
+    {
+      "num": 16,
+      "name": "קלודלס",
+      "folder": "16_ClaudelessClaude",
+      "status": "פעיל",
+      "emoji": "✅",
+      "url": ""
+    },
+    {
+      "num": 17,
+      "name": "אורקי",
+      "folder": "17_Orky",
+      "status": "פעיל",
+      "emoji": "✅",
+      "url": ""
     }
   ],
   "timeline": [
+    {
+      "id": "33ee2ca7",
+      "timestamp": "2026-04-24 01:12:24 +0300",
+      "type": "commit",
+      "title": "fix: restore correct index.html + complete all PREFERENCES iron laws",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "7cb3e117",
+      "timestamp": "2026-04-24 00:38:31 +0300",
+      "type": "commit",
+      "title": "chore: update AUTOMATION_RULES with session 2026-04-24 completion status",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "7c4d9c85",
+      "timestamp": "2026-04-24 00:37:50 +0300",
+      "type": "commit",
+      "title": "chore: final cleanup — archive purge, stage docs/agents, remove stale logs",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "b4a19805",
+      "timestamp": "2026-04-24 00:37:04 +0300",
+      "type": "commit",
+      "title": "fix: security hardening + cleanup — .gitignore, remove private data exposure, fix deploy workflow, sync index.html",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "2af1762d",
+      "timestamp": "2026-04-24 00:28:22 +0300",
+      "type": "commit",
+      "title": "fix: consolidate all agent fixes — profile image, nav, pipeline, security hardening",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "d2fe3134",
+      "timestamp": "2026-04-24 00:18:44 +0300",
+      "type": "commit",
+      "title": "chore: add AUTOMATION_RULES.md — all historical requests consolidated as session checklist",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "0b584216",
+      "timestamp": "2026-04-24 00:17:21 +0300",
+      "type": "commit",
+      "title": "fix: workflow — switch to generate_json_local.py, fix stale cost_log path, add CSS rebuild",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "c1984ffd",
+      "timestamp": "2026-04-24 00:01:43 +0300",
+      "type": "commit",
+      "title": "fix: PREFERENCES compliance — underline תרחיש headers, webp images, מעקב טיקרים label",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "c59325af",
+      "timestamp": "2026-04-21 11:30:12 +0300",
+      "type": "commit",
+      "title": "cleanup: reorganize docs post-reorg (deletions + movements)",
+      "description": "פרויקט לינקי (Linky)",
+      "project": "לינקי (Linky)",
+      "icon": "git"
+    },
+    {
+      "id": "5e7e8ee7",
+      "timestamp": "2026-04-20 04:19:05 +0300",
+      "type": "commit",
+      "title": "refactor(6_LinkToText): consolidate config to config/ module, logs to data/logs/, merge requirements",
+      "description": "פרויקט לינקי (Linky)",
+      "project": "לינקי (Linky)",
+      "icon": "git"
+    },
+    {
+      "id": "e7c5feb1",
+      "timestamp": "2026-04-20 04:16:37 +0300",
+      "type": "commit",
+      "title": "RECOVERY: pre-consolidation checkpoint (config, logs, deploy)",
+      "description": "פרויקט לינקי (Linky)",
+      "project": "לינקי (Linky)",
+      "icon": "git"
+    },
+    {
+      "id": "5b2859ca",
+      "timestamp": "2026-04-20 04:07:36 +0300",
+      "type": "commit",
+      "title": "chore(chadshani): organize log files (already staged)",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "b7f6b5ee",
+      "timestamp": "2026-04-20 04:07:06 +0300",
+      "type": "commit",
+      "title": "chore(chadshani): move BASELINE documentation to docs/",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "60245f74",
+      "timestamp": "2026-04-18 20:00:30 +0300",
+      "type": "commit",
+      "title": "fix(linktotext): upgrade google-genai and httpx for dependency compatibility",
+      "description": "פרויקט לינקי (Linky)",
+      "project": "לינקי (Linky)",
+      "icon": "git"
+    },
+    {
+      "id": "a3545f42",
+      "timestamp": "2026-04-18 19:06:57 +0300",
+      "type": "commit",
+      "title": "fix(8_EvolutionSchematic): rebuild + redeploy (Vercel 404 fix)",
+      "description": "פרויקט אבולוציה",
+      "project": "אבולוציה",
+      "icon": "git"
+    },
+    {
+      "id": "c1d6ca2c",
+      "timestamp": "2026-04-18 08:45:31 +0300",
+      "type": "commit",
+      "title": "fix(linky): gemini model → 2.5-flash-lite (working variant)",
+      "description": "פרויקט לינקי (Linky)",
+      "project": "לינקי (Linky)",
+      "icon": "git"
+    },
     {
       "id": "63ee6c30",
       "timestamp": "2026-04-18 08:38:57 +0300",
@@ -114,17 +290,8 @@
       "timestamp": "2026-04-18 08:35:09 +0300",
       "type": "commit",
       "title": "test(linky): golden fixtures for 3 representative transcripts",
-      "description": "פרויקט לינקי",
-      "project": "לינקי",
-      "icon": "git"
-    },
-    {
-      "id": "f46dd7bf",
-      "timestamp": "2026-04-18 08:22:48 +0300",
-      "type": "commit",
-      "title": "fix(chadshani): root-cause quality (Hebrew purity + category binding + value validation)",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
+      "description": "פרויקט לינקי (Linky)",
+      "project": "לינקי (Linky)",
       "icon": "git"
     },
     {
@@ -143,15 +310,6 @@
       "title": "fix: evolution mobile item order",
       "description": "פרויקט אבולוציה",
       "project": "אבולוציה",
-      "icon": "git"
-    },
-    {
-      "id": "15181ef3",
-      "timestamp": "2026-04-17 23:26:33 +0300",
-      "type": "commit",
-      "title": "feat: add crash watchdog for chadshani_telegram_bot with events.jsonl logging",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
       "icon": "git"
     },
     {
@@ -209,84 +367,12 @@
       "icon": "git"
     },
     {
-      "id": "b2fdc573",
-      "timestamp": "2026-04-17 09:56:06 +0300",
-      "type": "commit",
-      "title": "fix: enable edge text visibility for Hebrew labels (סוכנים, כללים) in mindmap diagram",
-      "description": "פרויקט אבולוציה",
-      "project": "אבולוציה",
-      "icon": "git"
-    },
-    {
       "id": "9f2e87b6",
       "timestamp": "2026-04-17 08:45:50 +0300",
       "type": "commit",
       "title": "fix: strategy ordering, timeouts, frontend error handling, and Comet-only transcription",
-      "description": "פרויקט לינקי",
-      "project": "לינקי",
-      "icon": "git"
-    },
-    {
-      "id": "1dc6ea17",
-      "timestamp": "2026-04-16 10:24:21 +0300",
-      "type": "commit",
-      "title": "fix: add glob fallback for project path resolution in all workflow steps",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "d7eb4483",
-      "timestamp": "2026-04-16 10:20:27 +0300",
-      "type": "commit",
-      "title": "fix: resolve apostrophe path via find + env var in all workflow steps",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "9afe57bb",
-      "timestamp": "2026-04-16 10:16:48 +0300",
-      "type": "commit",
-      "title": "fix: use find to bypass apostrophe in git add path",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "7e809934",
-      "timestamp": "2026-04-16 10:12:59 +0300",
-      "type": "commit",
-      "title": "fix: escape apostrophe in git add path + add TODO and updated PREFERENCES",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "f339aa05",
-      "timestamp": "2026-04-16 10:08:54 +0300",
-      "type": "commit",
-      "title": "fix: add missing timezone import + CoinGecko reverse lookup",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "d9f0ca35",
-      "timestamp": "2026-04-16 10:03:05 +0300",
-      "type": "commit",
-      "title": "fix: TAO CoinGecko reverse lookup + relax section_7_ai validation after merge",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "bf3467d9",
-      "timestamp": "2026-04-16 07:11:32 +0300",
-      "type": "commit",
-      "title": "fix: resolve ImportError — fetch_crypto_price wrapper for yfinance",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
+      "description": "פרויקט לינקי (Linky)",
+      "project": "לינקי (Linky)",
       "icon": "git"
     },
     {
@@ -294,17 +380,8 @@
       "timestamp": "2026-04-16 07:09:39 +0300",
       "type": "commit",
       "title": "fix: clean transcription output — title separated, credits filtered, no internal headers",
-      "description": "פרויקט לינקי",
-      "project": "לינקי",
-      "icon": "git"
-    },
-    {
-      "id": "f90af942",
-      "timestamp": "2026-04-16 07:08:21 +0300",
-      "type": "commit",
-      "title": "fix: remove wrong working-directory path from deploy workflow",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
+      "description": "פרויקט לינקי (Linky)",
+      "project": "לינקי (Linky)",
       "icon": "git"
     },
     {
@@ -312,8 +389,8 @@
       "timestamp": "2026-04-10 13:04:30 +0300",
       "type": "commit",
       "title": "chore: gitignore debug artifacts, commit bgutil + strategy updates",
-      "description": "פרויקט לינקי",
-      "project": "לינקי",
+      "description": "פרויקט לינקי (Linky)",
+      "project": "לינקי (Linky)",
       "icon": "git"
     },
     {
@@ -321,555 +398,29 @@
       "timestamp": "2026-04-08 15:40:29 +0300",
       "type": "commit",
       "title": "fix(transcribe): Strategy P uses Comet CDP — never launch Chrome (hard rule compliance)",
-      "description": "פרויקט לינקי",
-      "project": "לינקי",
-      "icon": "git"
-    },
-    {
-      "id": "2f1f4605",
-      "timestamp": "2026-04-08 15:12:49 +0300",
-      "type": "commit",
-      "title": "feat(transcribe): integrate bgutil PO token server for YouTube bypass",
-      "description": "פרויקט לינקי",
-      "project": "לינקי",
-      "icon": "git"
-    },
-    {
-      "id": "48411bda",
-      "timestamp": "2026-04-08 13:39:54 +0300",
-      "type": "commit",
-      "title": "fix(linky): DPAPI errors + format 18 for Shorts — no-cookies-from-browser, format 18 first attempt",
-      "description": "פרויקט לינקי",
-      "project": "לינקי",
-      "icon": "git"
-    },
-    {
-      "id": "d2bf7621",
-      "timestamp": "2026-04-07 14:08:56 +0300",
-      "type": "commit",
-      "title": "feat(ltt): migrate to local-only, remove Render, full transcription chain",
-      "description": "פרויקט לינקי",
-      "project": "לינקי",
-      "icon": "git"
-    },
-    {
-      "id": "d4ccee68",
-      "timestamp": "2026-04-07 13:47:53 +0300",
-      "type": "commit",
-      "title": "fix(ltt): supadata mode=auto — generates transcript even without captions",
-      "description": "פרויקט לינקי",
-      "project": "לינקי",
-      "icon": "git"
-    },
-    {
-      "id": "9549008d",
-      "timestamp": "2026-04-07 12:57:07 +0300",
-      "type": "commit",
-      "title": "fix(ltt): race condition + YouTube Gemini fallback",
-      "description": "פרויקט לינקי",
-      "project": "לינקי",
+      "description": "פרויקט לינקי (Linky)",
+      "project": "לינקי (Linky)",
       "icon": "git"
     }
   ],
   "system_improvements": [
     {
-      "timestamp": "2026-04-18T08:35:00Z",
+      "timestamp": "2026-04-23T19:42:06.486571+00:00",
       "category": "system",
-      "what_changed": "tier1_audit: 7/10 healthy. CRITICAL: PocketClaude bot dead + Chadshani tasks missing. FLAGGED: ClaudeLinkProcessor path broken (quote",
-      "why": "all",
-      "project": "all",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:40:58.240367+00:00",
-      "category": "system",
-      "what_changed": "test_added: 6/6 tests pass: /queue command writes correct pending entry to task_queue.jsonl with cleanup",
-      "why": "tests/test_queue_handoff.py",
-      "project": "tests/test_queue_handoff.py",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:40:58.240364+00:00",
-      "category": "system",
-      "what_changed": "feature_added: New pipeline: fetches article URLs, strips HTML, summarizes via OpenRouter Haiku, saves to docs/external_knowledge/",
-      "why": "pipelines/apply_link_article.py",
-      "project": "pipelines/apply_link_article.py",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:40:58.240360+00:00",
-      "category": "system",
-      "what_changed": "feature_added: New pipeline: classifies UI vs code screenshots, saves UI patterns to design_patterns.md and code to snippets/inbox/",
-      "why": "pipelines/apply_image_ui.py",
-      "project": "pipelines/apply_image_ui.py",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:40:58.240320+00:00",
-      "category": "system",
-      "what_changed": "feature_added: Rewrote bot_v2.py: fixed broken import, added OpenRouter classification fallback, Ragi online detection, auto-apply disp",
-      "why": "bot_v2.py",
-      "project": "bot_v2.py",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:39:25.856810+00:00",
-      "category": "system",
-      "what_changed": "skill_added: Playwright regression guard for Wave 5 mobile CSS fix — right-edge pixel sampling at 375x667, fails if >5% white",
-      "why": "mobile_no_white_strip.js",
-      "project": "mobile_no_white_strip.js",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:39:25.856788+00:00",
-      "category": "system",
-      "what_changed": "פריסה: Nightly health check — HTTP+bundle+asset-hash checks for GitHub Pages live URL; ntfy alert + redeploy enqueue on failure",
-      "why": "evolution_health_check.py",
-      "project": "evolution_health_check.py",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:34:48.641085+00:00",
-      "category": "system",
-      "what_changed": "עדכון פרויקט: Tier 2 item 1: verify_500_events.py health check script created — exit 0 if >=500 valid events, exit 1 on regression",
-      "why": "12_LuachNihul",
-      "project": "12_LuachNihul",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:34:48.641085+00:00",
-      "category": "system",
-      "what_changed": "עדכון פרויקט: Tier 2 item 2: Evolution Schematic pinned tile added to projects view in index.html",
-      "why": "12_LuachNihul",
-      "project": "12_LuachNihul",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:34:48.641085+00:00",
-      "category": "system",
-      "what_changed": "עדכון פרויקט: Tier 2 item 3: register_luachnihul_daily.ps1 created — schtasks ClaudeLuachNihulDaily daily at 00:30",
-      "why": "12_LuachNihul",
-      "project": "12_LuachNihul",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:30:42.349432+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Action 'health_check' fails 68/126 — needs dedicated fix",
-      "why": "hermes-skill-gap",
-      "project": "hermes-skill-gap",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:30:42.066917+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted ChadshaniWatchdog (PID 17468)",
-      "why": "bot-ChadshaniWatchdog",
-      "project": "bot-ChadshaniWatchdog",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:30:40.007084+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 14356)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:30:33.119347+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Action 'health_check' fails 68/125 — needs dedicated fix",
-      "why": "hermes-skill-gap",
-      "project": "hermes-skill-gap",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:30:33.092509+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes found 16 unsolved failures — queued for analysis",
-      "why": "bug-learner",
-      "project": "bug-learner",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:30:32.691644+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted ChadshaniWatchdog (PID 17296)",
-      "why": "bot-ChadshaniWatchdog",
-      "project": "bot-ChadshaniWatchdog",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:30:22.862146+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 11488)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:29:57.041823+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted PocketClaude (PID 16524)",
-      "why": "bot-PocketClaude",
-      "project": "bot-PocketClaude",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "HANDOFF.md",
-      "project": "HANDOFF.md",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 3 stale Shalev's_Projects refs → projects",
-      "why": "CLAUDE.md",
-      "project": "CLAUDE.md",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 2 stale Shalev's_Projects refs → projects",
-      "why": "README_DEPLOY.md",
-      "project": "README_DEPLOY.md",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "phase5_update_schtasks.ps1",
-      "project": "phase5_update_schtasks.ps1",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "phase7_verify_chadshani.ps1",
-      "project": "phase7_verify_chadshani.ps1",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 17 stale Shalev's_Projects refs → projects",
-      "why": "handoff_state.dup_065247.json",
-      "project": "handoff_state.dup_065247.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 17 stale Shalev's_Projects refs → projects",
-      "why": "handoff_state.dup_065657.json",
-      "project": "handoff_state.dup_065657.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 17 stale Shalev's_Projects refs → projects",
-      "why": "handoff_state.json",
-      "project": "handoff_state.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 365 stale Shalev's_Projects refs → projects",
-      "why": "ragi_sync_state.json",
-      "project": "ragi_sync_state.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 7 stale Shalev's_Projects refs → projects",
-      "why": "memory_cache.json",
-      "project": "memory_cache.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 24 stale Shalev's_Projects refs → projects",
-      "why": "alert_rate.json",
-      "project": "alert_rate.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 16 stale Shalev's_Projects refs → projects",
-      "why": "handoff_state.json",
-      "project": "handoff_state.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "snapshot.json",
-      "project": "snapshot.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 2 stale Shalev's_Projects refs → projects",
-      "why": "snapshot_2026-03-28.json",
-      "project": "snapshot_2026-03-28.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 2 stale Shalev's_Projects refs → projects",
-      "why": "snapshot_2026-03-29.json",
-      "project": "snapshot_2026-03-29.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "snapshot_2026-03-30.json",
-      "project": "snapshot_2026-03-30.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "snapshot_2026-04-02.json",
-      "project": "snapshot_2026-04-02.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "snapshot_2026-04-08.json",
-      "project": "snapshot_2026-04-08.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "snapshot_2026-04-10.json",
-      "project": "snapshot_2026-04-10.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "snapshot_2026-04-16.json",
-      "project": "snapshot_2026-04-16.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "workers.json",
-      "project": "workers.json",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 2 stale Shalev's_Projects refs → projects",
-      "why": "path-reality-check.sh",
-      "project": "path-reality-check.sh",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "project-documenter-stop.sh",
-      "project": "project-documenter-stop.sh",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:26:38.790528+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: fix(paths): replaced 1 stale Shalev's_Projects refs → projects",
-      "why": "monthly-backup.ps1",
-      "project": "monthly-backup.ps1",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:23:15Z",
-      "category": "system",
-      "what_changed": "bug_fixed: Fixed 3 quality regressions: (1) Hebrew purity validator blocks English word drift in free-model output, (2) category-bl",
-      "why": "2_Chadshani",
-      "project": "2_Chadshani",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:00:10.101475+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Action 'health_check' fails 68/124 — needs dedicated fix",
-      "why": "hermes-skill-gap",
-      "project": "hermes-skill-gap",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T05:00:09.870193+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted ChadshaniWatchdog (PID 10848)",
-      "why": "bot-ChadshaniWatchdog",
-      "project": "bot-ChadshaniWatchdog",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T04:58:09.313482+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Action 'health_check' fails 67/123 — needs dedicated fix",
-      "why": "hermes-skill-gap",
-      "project": "hermes-skill-gap",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T04:58:09.300256+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes found 10 unsolved failures — queued for analysis",
-      "why": "bug-learner",
-      "project": "bug-learner",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T04:58:09.225271+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted ChadshaniWatchdog (PID 5764)",
-      "why": "bot-ChadshaniWatchdog",
-      "project": "bot-ChadshaniWatchdog",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T04:58:08.843112+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted PocketClaude (PID 15336)",
-      "why": "bot-PocketClaude",
-      "project": "bot-PocketClaude",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-18T04:42:04+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'unclassified' occurred 617x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
+      "what_changed": "ntfy_rejected: illegal_english_in_body",
+      "why": "מערכת",
+      "project": "כללי",
       "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 0,
     "currency": "ILS",
-    "last_synced": "2026-04-18T05:43:50.882063+00:00",
+    "last_synced": "2026-04-24T07:16:10.673503+00:00",
     "latest_run": "",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
-  "last_run_results": {
-    "links_processed": 200,
-    "relevant_count": 127,
-    "skipped_count": 69,
-    "heavy_count": 4,
-    "last_run": "2026-04-12T07:01:48.831006+00:00",
-    "last_nightly": "2026-04-18T05:39:25.856788+00:00",
-    "nightly_summary": "Nightly health check — HTTP+bundle+asset-hash checks for GitHub Pages live URL; ntfy alert + redeploy enqueue on failure"
-  },
-  "open_tasks": [
-    {
-      "id": "task_020",
-      "title": "הגדרת SSH + Ollama על הלפטופ",
-      "priority": "critical",
-      "category": "infrastructure",
-      "project": "שליטה מרחוק",
-      "status": "blocked",
-      "description": "לפטופ 192.168.1.202 כבוי. כשידלק — python setup_remote_machine.py --ip 192.168.1.202",
-      "created": "2026-04-16T00:00:00Z"
-    },
-    {
-      "id": "task_021",
-      "title": "הפעלת Ragi (bot_v2) על הלפטופ",
-      "priority": "high",
-      "category": "infrastructure",
-      "project": "פוקטי",
-      "status": "blocked",
-      "description": "תלוי בהתקנת לפטופ. bot_v2.py מוכן, Ollama נדרש.",
-      "created": "2026-04-16T00:00:00Z"
-    },
-    {
-      "id": "task_022",
-      "title": "Chadshani local pipeline — Ollama על הלפטופ",
-      "priority": "medium",
-      "category": "feature",
-      "project": "חדשני",
-      "status": "blocked",
-      "description": "generate_json_local.py מוכן. צריך Ollama+qwen2.5:7b על הלפטופ.",
-      "created": "2026-04-16T00:00:00Z"
-    },
-    {
-      "id": "task_023",
-      "title": "הרשמה ל-OpenRouter API (חינמי)",
-      "priority": "medium",
-      "category": "infrastructure",
-      "project": "מערכת",
-      "status": "open",
-      "description": "openrouter.ai — API key חינמי. נדרש לדפדפן.",
-      "created": "2026-04-16T00:00:00Z"
-    },
-    {
-      "id": "task_024",
-      "title": "תרגום מלא של אירועי LuachNihul לעברית",
-      "priority": "low",
-      "category": "improvement",
-      "project": "לוח ניהול",
-      "status": "open",
-      "description": "חלק מהאירועים עדיין באנגלית. צריך להרחיב REASON_TRANSLATIONS.",
-      "created": "2026-04-16T00:00:00Z"
-    },
-    {
-      "id": "task_004",
-      "title": "dispatcher.py — ניתוב משימות בין מחשבים",
-      "priority": "medium",
-      "category": "feature",
-      "project": "שליטה מרחוק",
-      "status": "blocked",
-      "description": "תלוי בהתקנת לפטופ. dispatcher.py קיים, workers.json מעודכן.",
-      "created": "2026-04-11T00:00:00Z"
-    },
-    {
-      "id": "task_005",
-      "title": "SPF Smart Gate — בדיקה ושילוב",
-      "priority": "low",
-      "category": "evaluation",
-      "project": "מערכת",
-      "status": "open",
-      "description": "שכבת אבטחה ל-LLM. ממתין להערכה.",
-      "created": "2026-04-11T00:00:00Z"
-    },
-    {
-      "id": "task_008",
-      "title": "Golem AI — הערכה",
-      "priority": "low",
-      "category": "evaluation",
-      "project": "פוקטי",
-      "status": "open",
-      "description": "פלטפורמת סוכנים. האם מחליף/משלים bot.py?",
-      "created": "2026-04-11T00:00:00Z"
-    }
-  ]
+  "last_run_results": {},
+  "open_tasks": []
 }
