@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T06:35:41.275178+00:00",
-  "system_modified_at": "2026-04-25T06:35:41.275181+00:00",
+  "last_updated": "2026-04-25T06:53:35.429845+00:00",
+  "system_modified_at": "2026-04-25T06:53:35.429848+00:00",
   "projects": [
     {
       "num": 1,
@@ -133,6 +133,15 @@
   ],
   "timeline": [
     {
+      "id": "7c800a1a",
+      "timestamp": "2026-04-25 09:50:43 +0300",
+      "type": "commit",
+      "title": "fix(traders): crypto-only prompt for section_9+10, nav אודותיי fix",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
       "id": "9b3154e0",
       "timestamp": "2026-04-25 09:13:02 +0300",
       "type": "commit",
@@ -155,6 +164,15 @@
       "timestamp": "2026-04-25 08:43:33 +0300",
       "type": "commit",
       "title": "fix(deploy): push to public Chadshani-Live repo instead of private GH Pages",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "a020786a",
+      "timestamp": "2026-04-25 06:25:26 +0000",
+      "type": "commit",
+      "title": "update 2026-04-25 06:25",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
@@ -191,24 +209,6 @@
       "timestamp": "2026-04-25 00:34:44 +0300",
       "type": "commit",
       "title": "feat(autonomy): analyzer script + learning log",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "4c4f1067",
-      "timestamp": "2026-04-25 00:31:50 +0300",
-      "type": "commit",
-      "title": "feat(validation): topup from prev + expanded Hebrew-purity allowlist",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "2dc48c19",
-      "timestamp": "2026-04-24 23:20:48 +0300",
-      "type": "commit",
-      "title": "feat(autonomy): Tier 2 local fallback + verified OpenRouter models",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
@@ -404,6 +404,30 @@
     }
   ],
   "system_improvements": [
+    {
+      "timestamp": "2026-04-25T06:53:10.483124+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes found 2 unsolved failures — queued for analysis",
+      "why": "bug-learner",
+      "project": "bug-learner",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T06:53:08.453199+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 29900)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T06:50:29+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'git-error' occurred 4x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
     {
       "timestamp": "2026-04-25T06:11:51.608773+00:00",
       "category": "system",
@@ -672,7 +696,7 @@
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T06:35:41.275161+00:00",
+    "last_synced": "2026-04-25T06:53:35.429826+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
