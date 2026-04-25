@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T06:53:35.429845+00:00",
-  "system_modified_at": "2026-04-25T06:53:35.429848+00:00",
+  "last_updated": "2026-04-25T07:02:33.943388+00:00",
+  "system_modified_at": "2026-04-25T07:02:33.943391+00:00",
   "projects": [
     {
       "num": 1,
@@ -405,6 +405,14 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-25T07:01:12.387616+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes found 3 unsolved failures — queued for analysis",
+      "why": "bug-learner",
+      "project": "bug-learner",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-25T06:53:10.483124+00:00",
       "category": "system",
       "what_changed": "שינוי מערכת: Hermes found 2 unsolved failures — queued for analysis",
@@ -696,7 +704,7 @@
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T06:53:35.429826+00:00",
+    "last_synced": "2026-04-25T07:02:33.943374+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
