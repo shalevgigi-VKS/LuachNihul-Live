@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T08:56:09.104162+00:00",
-  "system_modified_at": "2026-04-25T08:56:09.104165+00:00",
+  "last_updated": "2026-04-25T08:57:36.138128+00:00",
+  "system_modified_at": "2026-04-25T08:57:36.138131+00:00",
   "projects": [
     {
       "num": 1,
@@ -405,6 +405,22 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-25T08:57:09.830971+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 30312)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:56:21.459714+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 20708)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-25T08:55:31.327496+00:00",
       "category": "system",
       "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 18984)",
@@ -787,28 +803,12 @@
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T08:13:30.867738+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 1856)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T08:12:49.418085+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 16796)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T08:56:09.104148+00:00",
+    "last_synced": "2026-04-25T08:57:36.138112+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
