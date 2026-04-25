@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T06:04:19.720047+00:00",
-  "system_modified_at": "2026-04-25T06:04:19.720050+00:00",
+  "last_updated": "2026-04-25T06:16:03.789926+00:00",
+  "system_modified_at": "2026-04-25T06:16:03.789928+00:00",
   "projects": [
     {
       "num": 1,
@@ -133,6 +133,15 @@
   ],
   "timeline": [
     {
+      "id": "9b3154e0",
+      "timestamp": "2026-04-25 09:13:02 +0300",
+      "type": "commit",
+      "title": "feat(notify+security): single post-verify ntfy + deny-list scan + auto-recovery",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
       "id": "ff00bdbe",
       "timestamp": "2026-04-25 08:44:39 +0300",
       "type": "commit",
@@ -146,6 +155,15 @@
       "timestamp": "2026-04-25 08:43:33 +0300",
       "type": "commit",
       "title": "fix(deploy): push to public Chadshani-Live repo instead of private GH Pages",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "a00fe519",
+      "timestamp": "2026-04-25 05:52:15 +0000",
+      "type": "commit",
+      "title": "update 2026-04-25 05:52",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
@@ -191,24 +209,6 @@
       "timestamp": "2026-04-24 23:20:48 +0300",
       "type": "commit",
       "title": "feat(autonomy): Tier 2 local fallback + verified OpenRouter models",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "7d084108",
-      "timestamp": "2026-04-24 23:10:41 +0300",
-      "type": "commit",
-      "title": "fix: update OpenRouter free model IDs — replace deprecated models",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "235f9348",
-      "timestamp": "2026-04-24 22:54:33 +0300",
-      "type": "commit",
-      "title": "fix: OpenRouter model diversity + Cloudflare fast-skip + 429 backoff",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
@@ -404,6 +404,14 @@
     }
   ],
   "system_improvements": [
+    {
+      "timestamp": "2026-04-25T06:11:51.608773+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 9108)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
     {
       "timestamp": "2026-04-25T05:42:39+00:00",
       "category": "system",
@@ -664,7 +672,7 @@
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T06:04:19.720034+00:00",
+    "last_synced": "2026-04-25T06:16:03.789913+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
