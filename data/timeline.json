@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T10:12:13.611419+00:00",
-  "system_modified_at": "2026-04-25T10:12:13.611421+00:00",
+  "last_updated": "2026-04-25T10:36:36.305275+00:00",
+  "system_modified_at": "2026-04-25T10:36:36.305277+00:00",
   "projects": [
     {
       "num": 1,
@@ -405,401 +405,401 @@
   ],
   "system_improvements": [
     {
-      "timestamp": "2026-04-25T10:11:50.615751+00:00",
+      "timestamp": "2026-04-25T10:36:23.249321+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 14224)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 18020)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:11:22.719602+00:00",
+      "timestamp": "2026-04-25T10:35:58.572586+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 9012)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 452)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:10:52.179081+00:00",
+      "timestamp": "2026-04-25T10:35:33.598812+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 13640)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 23472)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:10:18.058458+00:00",
+      "timestamp": "2026-04-25T10:35:09.278974+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 10172)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 3336)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:09:50.476434+00:00",
+      "timestamp": "2026-04-25T10:34:44.927653+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 21956)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 24280)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:09:23.528234+00:00",
+      "timestamp": "2026-04-25T10:34:17.562430+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 17072)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 12716)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:08:53.508864+00:00",
+      "timestamp": "2026-04-25T10:33:53.326971+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 27824)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25576)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:08:17.729465+00:00",
+      "timestamp": "2026-04-25T10:33:29.177642+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 24460)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 30060)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:07:48.240060+00:00",
+      "timestamp": "2026-04-25T10:33:04.348186+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 6188)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 30496)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:07:10.484051+00:00",
+      "timestamp": "2026-04-25T10:32:39.572432+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 12976)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 26732)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:06:38.909253+00:00",
+      "timestamp": "2026-04-25T10:32:15.223952+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 22932)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25716)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:06:04.769461+00:00",
+      "timestamp": "2026-04-25T10:31:50.113964+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 30472)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 22200)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:05:37.622761+00:00",
+      "timestamp": "2026-04-25T10:31:25.611881+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 19172)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 3340)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:05:07.267743+00:00",
+      "timestamp": "2026-04-25T10:30:59.929597+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 15016)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 23896)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:04:39.990207+00:00",
+      "timestamp": "2026-04-25T10:30:35.644987+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 27448)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 26900)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:04:08.916768+00:00",
+      "timestamp": "2026-04-25T10:30:11.335959+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 18128)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 15484)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:03:37.785719+00:00",
+      "timestamp": "2026-04-25T10:29:46.228569+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 24644)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 27916)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:03:07.752773+00:00",
+      "timestamp": "2026-04-25T10:29:22.138962+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25116)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 17916)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:02:39.078044+00:00",
+      "timestamp": "2026-04-25T10:28:57.190689+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 6672)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 13292)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:02:09.309838+00:00",
+      "timestamp": "2026-04-25T10:28:32.645535+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 26948)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 13032)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:01:38.865260+00:00",
+      "timestamp": "2026-04-25T10:28:08.484633+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 8636)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 8708)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:01:09.034249+00:00",
+      "timestamp": "2026-04-25T10:27:43.941935+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25496)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 28152)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:00:38.068611+00:00",
+      "timestamp": "2026-04-25T10:27:16.187568+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 28540)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 18484)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T10:00:03.365607+00:00",
+      "timestamp": "2026-04-25T10:26:51.886125+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 13676)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25344)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:59:27.648177+00:00",
+      "timestamp": "2026-04-25T10:26:27.579328+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes found 20 unsolved failures — queued for analysis",
-      "why": "bug-learner",
-      "project": "bug-learner",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T09:59:27.623813+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 29928)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 21528)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:58:49.395958+00:00",
+      "timestamp": "2026-04-25T10:26:00.984131+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes found 19 unsolved failures — queued for analysis",
-      "why": "bug-learner",
-      "project": "bug-learner",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T09:58:49.163852+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 10548)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 26024)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:58:20.085031+00:00",
+      "timestamp": "2026-04-25T10:25:36.557174+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes found 18 unsolved failures — queued for analysis",
-      "why": "bug-learner",
-      "project": "bug-learner",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T09:58:20.059088+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 17836)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 18436)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:57:42.189497+00:00",
+      "timestamp": "2026-04-25T10:25:11.812594+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 30096)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 2404)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:57:07.972385+00:00",
+      "timestamp": "2026-04-25T10:24:47.667690+00:00",
       "category": "system",
-      "what_changed": "bot_restarted: bot.py unresponsive (restart #4)",
-      "why": "11_PocketClaude/bot.py",
-      "project": "11_PocketClaude/bot.py",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T09:57:06.642545+00:00",
-      "category": "system",
-      "what_changed": "bot_restarted: bot.py unresponsive (restart #3)",
-      "why": "11_PocketClaude/bot.py",
-      "project": "11_PocketClaude/bot.py",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T09:56:54.987070+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes found 17 unsolved failures — queued for analysis",
-      "why": "bug-learner",
-      "project": "bug-learner",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T09:56:54.962989+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25572)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 29992)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:56:01.771319+00:00",
+      "timestamp": "2026-04-25T10:24:22.861379+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 5216)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 19056)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:55:06.799421+00:00",
+      "timestamp": "2026-04-25T10:23:53.301430+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25688)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 19096)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:54:10.200348+00:00",
+      "timestamp": "2026-04-25T10:23:28.768092+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 18700)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 8300)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:53:27.487630+00:00",
+      "timestamp": "2026-04-25T10:23:03.759915+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 9744)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 16752)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:53:00.504704+00:00",
+      "timestamp": "2026-04-25T10:22:39.400089+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 21512)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 2116)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:52:31.376322+00:00",
+      "timestamp": "2026-04-25T10:22:14.335338+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 2296)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 3260)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:52:03.316020+00:00",
+      "timestamp": "2026-04-25T10:21:48.542173+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 22492)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 14688)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:50:57.972278+00:00",
+      "timestamp": "2026-04-25T10:21:23.972713+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 26852)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 26508)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:50:11.406715+00:00",
+      "timestamp": "2026-04-25T10:20:59.255392+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 22880)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 17572)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:49:31.130926+00:00",
+      "timestamp": "2026-04-25T10:20:34.172382+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 23060)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 26212)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:48:59.508245+00:00",
+      "timestamp": "2026-04-25T10:20:08.457213+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 22720)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 29584)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:48:28.898707+00:00",
+      "timestamp": "2026-04-25T10:19:41.961479+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 24092)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 12512)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:47:56.339232+00:00",
+      "timestamp": "2026-04-25T10:19:15.706857+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 22464)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 8696)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:47:25.994075+00:00",
+      "timestamp": "2026-04-25T10:18:49.269739+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 27408)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 15456)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
     },
     {
-      "timestamp": "2026-04-25T09:46:53.035146+00:00",
+      "timestamp": "2026-04-25T10:17:53.606324+00:00",
       "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 9272)",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 14636)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T10:17:28.106354+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 16696)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T10:17:00.542994+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 5484)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T10:16:31.051014+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 23240)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T10:16:04.887837+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 15444)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T10:15:39.334250+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 19968)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T10:15:09.463647+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 17468)",
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
@@ -808,7 +808,7 @@
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T10:12:13.611405+00:00",
+    "last_synced": "2026-04-25T10:36:36.305261+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
