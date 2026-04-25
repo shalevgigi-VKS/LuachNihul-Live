@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T08:17:03.949878+00:00",
-  "system_modified_at": "2026-04-25T08:17:03.949880+00:00",
+  "last_updated": "2026-04-25T08:31:24.878676+00:00",
+  "system_modified_at": "2026-04-25T08:31:24.878679+00:00",
   "projects": [
     {
       "num": 1,
@@ -405,6 +405,118 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-25T08:30:35.110302+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes found 10 unsolved failures — queued for analysis",
+      "why": "bug-learner",
+      "project": "bug-learner",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:30:35.073226+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 15116)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:29:28.764566+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25136)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:28:17.001531+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 14824)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:27:06.162361+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 13228)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:26:04.554030+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 20848)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:24:59.615277+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 5776)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:23:22.707699+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 19776)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:22:08.482163+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 2420)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:21:11.164427+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 23352)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:20:04.318444+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 23776)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:18:55.329898+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 8172)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:18:04.307177+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25296)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:17:20.373757+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 28796)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-25T08:16:25.591988+00:00",
       "category": "system",
       "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 13448)",
@@ -691,124 +803,12 @@
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T07:54:27.769970+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 19996)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T07:53:57.400503+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 14288)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T07:53:23.606396+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 22848)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T07:52:49.665880+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 8388)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T07:52:11.410583+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 3236)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T07:51:34.977059+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 26852)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T07:50:56.392257+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes found 9 unsolved failures — queued for analysis",
-      "why": "bug-learner",
-      "project": "bug-learner",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T07:50:56.365348+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 7764)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T07:42:21+00:00",
-      "category": "system",
-      "what_changed": "resolution_complete: Actions: Recurring: unclassified-bash-failure (40x) | Recurring: python-exec-error (27x) | Recurring: schtasks-error (3x",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T07:42:20+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 40x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T07:42:20+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'python-exec-error' occurred 27x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T06:42:30+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 38x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T06:42:30+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'python-exec-error' occurred 24x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T06:42:30+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'schtasks-error' occurred 3x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T08:17:03.949864+00:00",
+    "last_synced": "2026-04-25T08:31:24.878654+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
