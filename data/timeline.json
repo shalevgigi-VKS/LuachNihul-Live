@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T10:03:34.264817+00:00",
-  "system_modified_at": "2026-04-25T10:03:34.264819+00:00",
+  "last_updated": "2026-04-25T10:04:13.365111+00:00",
+  "system_modified_at": "2026-04-25T10:04:13.365113+00:00",
   "projects": [
     {
       "num": 1,
@@ -405,6 +405,22 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-25T10:04:08.916768+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 18128)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T10:03:37.785719+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 24644)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-25T10:03:07.752773+00:00",
       "category": "system",
       "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25116)",
@@ -520,6 +536,14 @@
       "timestamp": "2026-04-25T09:57:07.972385+00:00",
       "category": "system",
       "what_changed": "bot_restarted: bot.py unresponsive (restart #4)",
+      "why": "11_PocketClaude/bot.py",
+      "project": "11_PocketClaude/bot.py",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T09:57:06.642545+00:00",
+      "category": "system",
+      "what_changed": "bot_restarted: bot.py unresponsive (restart #3)",
       "why": "11_PocketClaude/bot.py",
       "project": "11_PocketClaude/bot.py",
       "source_type": "events_jsonl"
@@ -779,36 +803,12 @@
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T09:39:04.791133+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 18240)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T09:38:42.053703+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 6320)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T09:38:12.605172+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 30624)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T10:03:34.264803+00:00",
+    "last_synced": "2026-04-25T10:04:13.365096+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
@@ -818,7 +818,7 @@
     "relevant_count": 168,
     "skipped_count": 32,
     "heavy_count": 0,
-    "last_run": "2026-04-24T18:04:00.004490+00:00"
+    "last_run": "2026-04-25T10:04:07.428370+00:00"
   },
   "open_tasks": []
 }
