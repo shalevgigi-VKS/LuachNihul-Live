@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T10:04:13.365111+00:00",
-  "system_modified_at": "2026-04-25T10:04:13.365113+00:00",
+  "last_updated": "2026-04-25T10:04:48.271732+00:00",
+  "system_modified_at": "2026-04-25T10:04:48.271734+00:00",
   "projects": [
     {
       "num": 1,
@@ -405,6 +405,14 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-25T10:04:39.990207+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 27448)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-25T10:04:08.916768+00:00",
       "category": "system",
       "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 18128)",
@@ -795,20 +803,12 @@
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T09:39:35.964768+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 10740)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T10:04:13.365096+00:00",
+    "last_synced": "2026-04-25T10:04:48.271718+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
