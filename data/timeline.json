@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T07:16:10.673519+00:00",
-  "system_modified_at": "2026-04-24T07:16:10.673522+00:00",
+  "last_updated": "2026-04-25T06:04:19.720047+00:00",
+  "system_modified_at": "2026-04-25T06:04:19.720050+00:00",
   "projects": [
     {
       "num": 1,
@@ -133,73 +133,91 @@
   ],
   "timeline": [
     {
-      "id": "33ee2ca7",
-      "timestamp": "2026-04-24 01:12:24 +0300",
+      "id": "ff00bdbe",
+      "timestamp": "2026-04-25 08:44:39 +0300",
       "type": "commit",
-      "title": "fix: restore correct index.html + complete all PREFERENCES iron laws",
+      "title": "Merge branch 'master' of https://github.com/shalevgigi-VKS/Chadshani",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
     },
     {
-      "id": "7cb3e117",
-      "timestamp": "2026-04-24 00:38:31 +0300",
+      "id": "ae078bc6",
+      "timestamp": "2026-04-25 08:43:33 +0300",
       "type": "commit",
-      "title": "chore: update AUTOMATION_RULES with session 2026-04-24 completion status",
+      "title": "fix(deploy): push to public Chadshani-Live repo instead of private GH Pages",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
     },
     {
-      "id": "7c4d9c85",
-      "timestamp": "2026-04-24 00:37:50 +0300",
+      "id": "43a95768",
+      "timestamp": "2026-04-25 05:38:19 +0000",
       "type": "commit",
-      "title": "chore: final cleanup — archive purge, stage docs/agents, remove stale logs",
+      "title": "update 2026-04-25 05:38",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
     },
     {
-      "id": "b4a19805",
-      "timestamp": "2026-04-24 00:37:04 +0300",
+      "id": "9ccd8156",
+      "timestamp": "2026-04-25 00:49:41 +0300",
       "type": "commit",
-      "title": "fix: security hardening + cleanup — .gitignore, remove private data exposure, fix deploy workflow, sync index.html",
+      "title": "fix(workflow): resolve project path at repo root (GH Actions checkout)",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
     },
     {
-      "id": "2af1762d",
-      "timestamp": "2026-04-24 00:28:22 +0300",
+      "id": "6a3ded02",
+      "timestamp": "2026-04-25 00:34:44 +0300",
       "type": "commit",
-      "title": "fix: consolidate all agent fixes — profile image, nav, pipeline, security hardening",
+      "title": "feat(autonomy): analyzer script + learning log",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
     },
     {
-      "id": "d2fe3134",
-      "timestamp": "2026-04-24 00:18:44 +0300",
+      "id": "4c4f1067",
+      "timestamp": "2026-04-25 00:31:50 +0300",
       "type": "commit",
-      "title": "chore: add AUTOMATION_RULES.md — all historical requests consolidated as session checklist",
+      "title": "feat(validation): topup from prev + expanded Hebrew-purity allowlist",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
     },
     {
-      "id": "0b584216",
-      "timestamp": "2026-04-24 00:17:21 +0300",
+      "id": "2dc48c19",
+      "timestamp": "2026-04-24 23:20:48 +0300",
       "type": "commit",
-      "title": "fix: workflow — switch to generate_json_local.py, fix stale cost_log path, add CSS rebuild",
+      "title": "feat(autonomy): Tier 2 local fallback + verified OpenRouter models",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
     },
     {
-      "id": "c1984ffd",
-      "timestamp": "2026-04-24 00:01:43 +0300",
+      "id": "7d084108",
+      "timestamp": "2026-04-24 23:10:41 +0300",
       "type": "commit",
-      "title": "fix: PREFERENCES compliance — underline תרחיש headers, webp images, מעקב טיקרים label",
+      "title": "fix: update OpenRouter free model IDs — replace deprecated models",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "235f9348",
+      "timestamp": "2026-04-24 22:54:33 +0300",
+      "type": "commit",
+      "title": "fix: OpenRouter model diversity + Cloudflare fast-skip + 429 backoff",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
+      "id": "8938b284",
+      "timestamp": "2026-04-24 22:13:14 +0000",
+      "type": "commit",
+      "title": "update 2026-04-24 22:13",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
@@ -229,24 +247,6 @@
       "title": "RECOVERY: pre-consolidation checkpoint (config, logs, deploy)",
       "description": "פרויקט לינקי (Linky)",
       "project": "לינקי (Linky)",
-      "icon": "git"
-    },
-    {
-      "id": "5b2859ca",
-      "timestamp": "2026-04-20 04:07:36 +0300",
-      "type": "commit",
-      "title": "chore(chadshani): organize log files (already staged)",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "b7f6b5ee",
-      "timestamp": "2026-04-20 04:07:06 +0300",
-      "type": "commit",
-      "title": "chore(chadshani): move BASELINE documentation to docs/",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
       "icon": "git"
     },
     {
@@ -405,6 +405,254 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-25T05:42:39+00:00",
+      "category": "system",
+      "what_changed": "פריסה: Chadshani deploy failed at 2026-04-25T05:30:36 — needs manual review",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T04:42:06+00:00",
+      "category": "system",
+      "what_changed": "פריסה: Chadshani deploy failed at 2026-04-25T03:45:14 — needs manual review",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T22:42:08+00:00",
+      "category": "system",
+      "what_changed": "פריסה: Actions: Restarted local_poll.py | Chadshani deploy FAILED — needs review | Recurring: unclassified-bash-failure (63x) |",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T22:42:07+00:00",
+      "category": "system",
+      "what_changed": "פריסה: Chadshani deploy failed at 2026-04-24T21:49:46 — needs manual review",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T20:42:57+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 63x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T19:42:11+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 61x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T19:42:11+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'python-exec-error' occurred 34x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T18:47:34+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 60x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T17:42:08+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 54x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T16:42:07+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 53x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T15:42:07+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'python-exec-error' occurred 31x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T14:42:11+00:00",
+      "category": "system",
+      "what_changed": "resolution_complete: Actions: Restarted local_poll.py | Recurring: unclassified-bash-failure (52x) | Recurring: python-exec-error (30x) | Rec",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T14:42:06+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 52x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T13:42:10+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 50x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T13:42:10+00:00",
+      "category": "system",
+      "what_changed": "resolution_complete: Actions: Restarted local_poll.py | Restarted bot.py | Recurring: unclassified-bash-failure (50x) | Recurring: python-exe",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T13:42:06+00:00",
+      "category": "system",
+      "what_changed": "bot_restarted: PocketClaude relay restarted automatically",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T13:42:05+00:00",
+      "category": "system",
+      "what_changed": "bot_restarted: LinkToText bot restarted automatically",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T13:05:28.992943+00:00",
+      "category": "system",
+      "what_changed": "bot_restarted: bot.py unresponsive (restart #1)",
+      "why": "11_PocketClaude/bot.py",
+      "project": "11_PocketClaude/bot.py",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T12:42:11+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 47x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T12:42:11+00:00",
+      "category": "system",
+      "what_changed": "resolution_complete: Actions: Recurring: unclassified-bash-failure (47x) | Recurring: python-exec-error (30x) | Recurring: schtasks-error (3x",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T10:42:13+00:00",
+      "category": "system",
+      "what_changed": "resolution_complete: Actions: Recurring: unclassified-bash-failure (44x) | Recurring: python-exec-error (30x) | Recurring: schtasks-error (3x",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T10:42:11+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 44x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T09:48:03+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'python-exec-error' occurred 30x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T09:42:05+00:00",
+      "category": "system",
+      "what_changed": "resolution_complete: Actions: Recurring: unclassified-bash-failure (43x) | Recurring: python-exec-error (27x) | Recurring: schtasks-error (3x",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T09:42:04+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 43x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T08:42:04+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 41x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T08:42:04+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'python-exec-error' occurred 27x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T08:42:04+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'schtasks-error' occurred 3x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T08:42:04+00:00",
+      "category": "system",
+      "what_changed": "recurring_failure: Pattern 'git-error' occurred 3x in 7 days",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T08:42:04+00:00",
+      "category": "system",
+      "what_changed": "resolution_complete: Actions: Recurring: unclassified-bash-failure (41x) | Recurring: python-exec-error (27x) | Recurring: schtasks-error (3x",
+      "why": "auto_resolver",
+      "project": "auto_resolver",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-24T08:19:54Z",
+      "category": "system",
+      "what_changed": "security_flag: risky pattern: curl -s.*| ",
+      "why": "מערכת",
+      "project": "כללי",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-23T19:42:06.486571+00:00",
       "category": "system",
       "what_changed": "ntfy_rejected: illegal_english_in_body",
@@ -414,13 +662,19 @@
     }
   ],
   "billing": {
-    "current_balance_ils": 0,
+    "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-24T07:16:10.673503+00:00",
-    "latest_run": "",
+    "last_synced": "2026-04-25T06:04:19.720034+00:00",
+    "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
   "pending_installs": [],
-  "last_run_results": {},
+  "last_run_results": {
+    "links_processed": 200,
+    "relevant_count": 168,
+    "skipped_count": 32,
+    "heavy_count": 0,
+    "last_run": "2026-04-24T18:04:00.004490+00:00"
+  },
   "open_tasks": []
 }
