@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T08:15:16.895511+00:00",
-  "system_modified_at": "2026-04-25T08:15:16.895514+00:00",
+  "last_updated": "2026-04-25T08:17:03.949878+00:00",
+  "system_modified_at": "2026-04-25T08:17:03.949880+00:00",
   "projects": [
     {
       "num": 1,
@@ -133,6 +133,15 @@
   ],
   "timeline": [
     {
+      "id": "b56aa6a1",
+      "timestamp": "2026-04-25 11:16:30 +0300",
+      "type": "commit",
+      "title": "fix: closed_loop_session encoding on Windows",
+      "description": "פרויקט חדשני",
+      "project": "חדשני",
+      "icon": "git"
+    },
+    {
       "id": "8bd9c9aa",
       "timestamp": "2026-04-25 11:14:30 +0300",
       "type": "commit",
@@ -191,15 +200,6 @@
       "timestamp": "2026-04-25 08:44:39 +0300",
       "type": "commit",
       "title": "Merge branch 'master' of https://github.com/shalevgigi-VKS/Chadshani",
-      "description": "פרויקט חדשני",
-      "project": "חדשני",
-      "icon": "git"
-    },
-    {
-      "id": "ae078bc6",
-      "timestamp": "2026-04-25 08:43:33 +0300",
-      "type": "commit",
-      "title": "fix(deploy): push to public Chadshani-Live repo instead of private GH Pages",
       "description": "פרויקט חדשני",
       "project": "חדשני",
       "icon": "git"
@@ -404,6 +404,22 @@
     }
   ],
   "system_improvements": [
+    {
+      "timestamp": "2026-04-25T08:16:25.591988+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 13448)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T08:15:43.184408+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 21176)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
     {
       "timestamp": "2026-04-25T08:14:57.974987+00:00",
       "category": "system",
@@ -787,28 +803,12 @@
       "why": "auto_resolver",
       "project": "auto_resolver",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T06:42:30+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'git-error' occurred 3x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T06:42:30+00:00",
-      "category": "system",
-      "what_changed": "resolution_complete: Actions: Restarted local_poll.py | Recurring: unclassified-bash-failure (38x) | Recurring: python-exec-error (24x) | Rec",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T08:15:16.895492+00:00",
+    "last_synced": "2026-04-25T08:17:03.949864+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
