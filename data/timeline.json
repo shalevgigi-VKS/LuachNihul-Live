@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T08:52:58.453416+00:00",
-  "system_modified_at": "2026-04-25T08:52:58.453419+00:00",
+  "last_updated": "2026-04-25T08:53:22.132608+00:00",
+  "system_modified_at": "2026-04-25T08:53:22.132611+00:00",
   "projects": [
     {
       "num": 1,
@@ -405,6 +405,14 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-25T08:53:02.711229+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 20788)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-25T08:52:41+00:00",
       "category": "system",
       "what_changed": "recurring_failure: Pattern 'python-exec-error' occurred 37x in 7 days",
@@ -795,20 +803,12 @@
       "why": "bot-LinkToText",
       "project": "bot-LinkToText",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-25T08:10:22.725319+00:00",
-      "category": "system",
-      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 3924)",
-      "why": "bot-LinkToText",
-      "project": "bot-LinkToText",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T08:52:58.453402+00:00",
+    "last_synced": "2026-04-25T08:53:22.132591+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
