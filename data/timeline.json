@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T07:20:07.572224+00:00",
-  "system_modified_at": "2026-04-25T07:20:07.572227+00:00",
+  "last_updated": "2026-04-25T07:25:24.221479+00:00",
+  "system_modified_at": "2026-04-25T07:25:24.221481+00:00",
   "projects": [
     {
       "num": 1,
@@ -405,6 +405,86 @@
   ],
   "system_improvements": [
     {
+      "timestamp": "2026-04-25T07:25:08.942607+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes found 8 unsolved failures — queued for analysis",
+      "why": "bug-learner",
+      "project": "bug-learner",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T07:25:08.911685+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 13684)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T07:24:30.886014+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 27508)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T07:23:42.770857+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 15456)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T07:23:11.455068+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 6816)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T07:22:41.793282+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 25476)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T07:22:05.625873+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 28972)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T07:21:28.455732+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 19780)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T07:20:53.573200+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 22924)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
+      "timestamp": "2026-04-25T07:20:24.780122+00:00",
+      "category": "system",
+      "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 1756)",
+      "why": "bot-LinkToText",
+      "project": "bot-LinkToText",
+      "source_type": "events_jsonl"
+    },
+    {
       "timestamp": "2026-04-25T07:19:41.556944+00:00",
       "category": "system",
       "what_changed": "שינוי מערכת: Hermes restarted LinkToText (PID 14604)",
@@ -723,92 +803,12 @@
       "why": "auto_resolver",
       "project": "auto_resolver",
       "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T18:47:34+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 60x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T17:42:08+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 54x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T16:42:07+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 53x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T15:42:07+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'python-exec-error' occurred 31x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T14:42:11+00:00",
-      "category": "system",
-      "what_changed": "resolution_complete: Actions: Restarted local_poll.py | Recurring: unclassified-bash-failure (52x) | Recurring: python-exec-error (30x) | Rec",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T14:42:06+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 52x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T13:42:10+00:00",
-      "category": "system",
-      "what_changed": "recurring_failure: Pattern 'unclassified-bash-failure' occurred 50x in 7 days",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T13:42:10+00:00",
-      "category": "system",
-      "what_changed": "resolution_complete: Actions: Restarted local_poll.py | Restarted bot.py | Recurring: unclassified-bash-failure (50x) | Recurring: python-exe",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T13:42:06+00:00",
-      "category": "system",
-      "what_changed": "bot_restarted: PocketClaude relay restarted automatically",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
-    },
-    {
-      "timestamp": "2026-04-24T13:42:05+00:00",
-      "category": "system",
-      "what_changed": "bot_restarted: LinkToText bot restarted automatically",
-      "why": "auto_resolver",
-      "project": "auto_resolver",
-      "source_type": "events_jsonl"
     }
   ],
   "billing": {
     "current_balance_ils": 24.05,
     "currency": "ILS",
-    "last_synced": "2026-04-25T07:20:07.572207+00:00",
+    "last_synced": "2026-04-25T07:25:24.221463+00:00",
     "latest_run": "2026-03-26T14:40:07Z",
     "source": "cost_log.json (auto)"
   },
